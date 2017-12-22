@@ -51,8 +51,8 @@
               </div>
             </div>
             <div class="form__group">
-              <div class="radio">
-                <input type="radio" name="useron" id="useron">
+              <div class="checkbox">
+                <input type="checkbox" name="useron" id="useron">
                 <label class="label" for="useron">Я согласен на обработку моих персональных данных. <a href="#">Политика обработки персональных данных</a></label>
               </div>
             </div>
@@ -97,8 +97,8 @@
               </div>
             </div>
             <div class="form__group">
-              <div class="radio">
-                <input type="radio" name="useron1" id="useron1">
+              <div class="checkbox">
+                <input type="checkbox" name="useron1" id="useron1">
                 <label class="label" for="useron1">Я согласен на обработку моих персональных данных. <a href="#">Политика обработки персональных данных</a></label>
               </div>
             </div>
@@ -184,7 +184,7 @@
         </div>
       </div>
       <!--upload content - using ajax-->
-      <div class="main-popup--bg">
+      <div class="main-popup--bg main-popup--bgab">
         <div class="main-popup main-popup--md search-results">
           <h2 class="search-results-title">По запросу «Торговое помещение» </h2>
           <div class="search-results-subtitle text__md text--uppercase">найдено <b>68</b> результатов</div><a class="search-results__item is-row stretch__xs" href="#">
@@ -250,12 +250,12 @@
                     <ul class="main-nav">
                       <li class="main-nav__item main-nav__item--parent"><a class="main-nav__link" href="/" title="О бизнес парке">О бизнес парке</a>
                         <ul class="sub-nav">
-                          <li class="main-nav__item"><a class="main-nav__link" href="#" title="О Компании   ">О Компании   </a></li>
-                          <li class="main-nav__item"><a class="main-nav__link" href="#" title="Арендаторы   ">Арендаторы   </a></li>
-                          <li class="main-nav__item"><a class="main-nav__link" href="#" title="Новости ">Новости </a></li>
-                          <li class="main-nav__item"><a class="main-nav__link" href="#" title="Услуги  ">Услуги  </a></li>
-                          <li class="main-nav__item"><a class="main-nav__link" href="#" title="Инфраструктура     ">Инфраструктура     </a></li>
-                          <li class="main-nav__item"><a class="main-nav__link" href="#" title="Размещение рекламы      ">Размещение рекламы      </a></li>
+                          <li class="main-nav__item"><a class="main-nav__link" href="#" title="О Компании">О Компании</a></li>
+                          <li class="main-nav__item"><a class="main-nav__link" href="#" title="Арендаторы">Арендаторы</a></li>
+                          <li class="main-nav__item"><a class="main-nav__link" href="#" title="Новости">Новости</a></li>
+                          <li class="main-nav__item"><a class="main-nav__link" href="#" title="Услуги">Услуги</a></li>
+                          <li class="main-nav__item"><a class="main-nav__link" href="#" title="Инфраструктура">Инфраструктура</a></li>
+                          <li class="main-nav__item"><a class="main-nav__link" href="#" title="Размещение рекламы">Размещение рекламы</a></li>
                           <li class="main-nav__item"><a class="main-nav__link" href="#" title="Медиатека">Медиатека</a></li>
                         </ul>
                       </li>
@@ -269,6 +269,18 @@
                   <div class="hidden__md hidden__lg hidden__xl">
                     <div class="page-header__link is-col mt20"><i class="is-icons is-icons--PDF"></i><a href="#">Презентация комплекса</a></div>
                     <div class="page-header__link is-col mt20"><i class="is-icons is-icons--Phone"></i><a class="popup" href="#form-id">обратный звонок</a></div>
+                  </div>
+                  <div class="main-nav__collapse-footer hidden__md hidden__lg hidden__xl">
+                    <div class="is-row between__xs middle__xs">
+                      <div class="is-col"> 
+                        <div class="socials">
+                          <div class="socials__item"><a href="#"><i class="icon-f"></i></a></div>
+                          <div class="socials__item"><a href="#"><i class="icon-insta"></i></a></div>
+                          <div class="socials__item"><a href="#"><i class="icon-vk"></i></a></div>
+                        </div>
+                      </div>
+                      <div class="is-col"><a class="text--uppercase text--grey" href="#">сделано в cloudmill</a></div>
+                    </div>
                   </div>
                 </div>
               </nav>
@@ -304,10 +316,10 @@
                   <li class="aside-menu__item"><a href="#">О Компании</a></li>
                   <li class="aside-menu__item"><a href="news.html">Новости</a></li>
                   <li class="aside-menu__item"><a href="infrastructure.html">Инфраструктура</a></li>
-                  <li class="aside-menu__item"><a href="gallery.html"> Медиатека</a></li>
+                  <li class="aside-menu__item"><a href="gallery.html">Медиатека</a></li>
                   <li class="aside-menu__item"><a class="active" href="lease.html">Арендаторы</a></li>
                   <li class="aside-menu__item"><a href="services.html">Услуги</a></li>
-                  <li class="aside-menu__item"><a href="advert.html"> Размещение рекламы  </a></li>
+                  <li class="aside-menu__item"><a href="advert.html">Размещение рекламы</a></li>
                 </ul>
               </aside>
               <section class="is-col is-col__xl-6 is-col__lg-7 is-col__md-8 is-col__xs-12">
@@ -315,102 +327,102 @@
                 <div class="is-row">
                   <div class="lease__item is-col is-col__lg-3 is-col__md-4 is-col__xs-6"> 
                     <div class="lease__item-img"><img src="images/lease-img_01.png" alt="">
-                      <div class="lease__item-txt">зоомагазин  «1000 друзей»</div>
+                      <div class="lease__item-txt">зоомагазин «1000 друзей»</div>
                     </div>
                   </div>
                   <div class="lease__item is-col is-col__lg-3 is-col__md-4 is-col__xs-6"> 
                     <div class="lease__item-img"><img src="images/lease-img_02.png" alt="">
-                      <div class="lease__item-txt">зоомагазин  «1000 друзей»</div>
+                      <div class="lease__item-txt">зоомагазин «1000 друзей»</div>
                     </div>
                   </div>
                   <div class="lease__item is-col is-col__lg-3 is-col__md-4 is-col__xs-6"> 
                     <div class="lease__item-img"><img src="images/lease-img_03.png" alt="">
-                      <div class="lease__item-txt">зоомагазин  «1000 друзей»</div>
+                      <div class="lease__item-txt">зоомагазин «1000 друзей»</div>
                     </div>
                   </div>
                   <div class="lease__item is-col is-col__lg-3 is-col__md-4 is-col__xs-6"> 
                     <div class="lease__item-img"><img src="images/lease-img_04.png" alt="">
-                      <div class="lease__item-txt">зоомагазин  «1000 друзей»</div>
+                      <div class="lease__item-txt">зоомагазин «1000 друзей»</div>
                     </div>
                   </div>
                   <div class="lease__item is-col is-col__lg-3 is-col__md-4 is-col__xs-6"> 
                     <div class="lease__item-img"><img src="images/lease-img_05.png" alt="">
-                      <div class="lease__item-txt">зоомагазин  «1000 друзей»</div>
+                      <div class="lease__item-txt">зоомагазин «1000 друзей»</div>
                     </div>
                   </div>
                   <div class="lease__item is-col is-col__lg-3 is-col__md-4 is-col__xs-6"> 
                     <div class="lease__item-img"><img src="images/lease-img_06.png" alt="">
-                      <div class="lease__item-txt">зоомагазин  «1000 друзей»</div>
+                      <div class="lease__item-txt">зоомагазин «1000 друзей»</div>
                     </div>
                   </div>
                   <div class="lease__item is-col is-col__lg-3 is-col__md-4 is-col__xs-6"> 
                     <div class="lease__item-img"><img src="images/lease-img_07.png" alt="">
-                      <div class="lease__item-txt">зоомагазин  «1000 друзей»</div>
+                      <div class="lease__item-txt">зоомагазин «1000 друзей»</div>
                     </div>
                   </div>
                   <div class="lease__item is-col is-col__lg-3 is-col__md-4 is-col__xs-6"> 
                     <div class="lease__item-img"><img src="images/lease-img_08.png" alt="">
-                      <div class="lease__item-txt">зоомагазин  «1000 друзей»</div>
+                      <div class="lease__item-txt">зоомагазин «1000 друзей»</div>
                     </div>
                   </div>
                   <div class="lease__item is-col is-col__lg-3 is-col__md-4 is-col__xs-6"> 
                     <div class="lease__item-img"><img src="images/lease-img_09.png" alt="">
-                      <div class="lease__item-txt">зоомагазин  «1000 друзей»</div>
+                      <div class="lease__item-txt">зоомагазин «1000 друзей»</div>
                     </div>
                   </div>
                   <div class="lease__item is-col is-col__lg-3 is-col__md-4 is-col__xs-6"> 
                     <div class="lease__item-img"><img src="images/lease-img_10.png" alt="">
-                      <div class="lease__item-txt">зоомагазин  «1000 друзей»</div>
+                      <div class="lease__item-txt">зоомагазин «1000 друзей»</div>
                     </div>
                   </div>
                   <div class="lease__item is-col is-col__lg-3 is-col__md-4 is-col__xs-6"> 
                     <div class="lease__item-img"><img src="images/lease-img_11.png" alt="">
-                      <div class="lease__item-txt">зоомагазин  «1000 друзей»</div>
+                      <div class="lease__item-txt">зоомагазин «1000 друзей»</div>
                     </div>
                   </div>
                   <div class="lease__item is-col is-col__lg-3 is-col__md-4 is-col__xs-6"> 
                     <div class="lease__item-img"><img src="images/lease-img_12.png" alt="">
-                      <div class="lease__item-txt">зоомагазин  «1000 друзей»</div>
+                      <div class="lease__item-txt">зоомагазин «1000 друзей»</div>
                     </div>
                   </div>
                   <div class="lease__item is-col is-col__lg-3 is-col__md-4 is-col__xs-6"> 
                     <div class="lease__item-img"><img src="images/lease-img_13.png" alt="">
-                      <div class="lease__item-txt">зоомагазин  «1000 друзей»</div>
+                      <div class="lease__item-txt">зоомагазин «1000 друзей»</div>
                     </div>
                   </div>
                   <div class="lease__item is-col is-col__lg-3 is-col__md-4 is-col__xs-6"> 
                     <div class="lease__item-img"><img src="images/lease-img_14.png" alt="">
-                      <div class="lease__item-txt">зоомагазин  «1000 друзей»</div>
+                      <div class="lease__item-txt">зоомагазин «1000 друзей»</div>
                     </div>
                   </div>
                   <div class="lease__item is-col is-col__lg-3 is-col__md-4 is-col__xs-6"> 
                     <div class="lease__item-img"><img src="images/lease-img_15.png" alt="">
-                      <div class="lease__item-txt">зоомагазин  «1000 друзей»</div>
+                      <div class="lease__item-txt">зоомагазин «1000 друзей»</div>
                     </div>
                   </div>
                   <div class="lease__item is-col is-col__lg-3 is-col__md-4 is-col__xs-6"> 
                     <div class="lease__item-img"><img src="images/lease-img_16.png" alt="">
-                      <div class="lease__item-txt">зоомагазин  «1000 друзей»</div>
+                      <div class="lease__item-txt">зоомагазин «1000 друзей»</div>
                     </div>
                   </div>
                   <div class="lease__item is-col is-col__lg-3 is-col__md-4 is-col__xs-6"> 
                     <div class="lease__item-img"><img src="images/lease-img_17.png" alt="">
-                      <div class="lease__item-txt">зоомагазин  «1000 друзей»</div>
+                      <div class="lease__item-txt">зоомагазин «1000 друзей»</div>
                     </div>
                   </div>
                   <div class="lease__item is-col is-col__lg-3 is-col__md-4 is-col__xs-6"> 
                     <div class="lease__item-img"><img src="images/lease-img_18.png" alt="">
-                      <div class="lease__item-txt">зоомагазин  «1000 друзей»</div>
+                      <div class="lease__item-txt">зоомагазин «1000 друзей»</div>
                     </div>
                   </div>
                   <div class="lease__item is-col is-col__lg-3 is-col__md-4 is-col__xs-6"> 
                     <div class="lease__item-img"><img src="images/lease-img_19.png" alt="">
-                      <div class="lease__item-txt">зоомагазин  «1000 друзей»</div>
+                      <div class="lease__item-txt">зоомагазин «1000 друзей»</div>
                     </div>
                   </div>
                   <div class="lease__item is-col is-col__lg-3 is-col__md-4 is-col__xs-6"> 
                     <div class="lease__item-img"><img src="images/lease-img_20.png" alt="">
-                      <div class="lease__item-txt">зоомагазин  «1000 друзей»</div>
+                      <div class="lease__item-txt">зоомагазин «1000 друзей»</div>
                     </div>
                   </div>
                 </div>

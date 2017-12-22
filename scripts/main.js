@@ -204,12 +204,44 @@ $(document).ready(function () {
     if (dataR) {
       if (screen_width <= 767) {
         mydiv.css({ 'left': leftPer + 1 + '%', 'bottom': bottomPer + 15 + '%' }).addClass('svg-popover--reverse');
+      } else if (screen_width > 767 && screen_width <= 900) {
+        mydiv.css({ 'left': leftPer + 1 + '%', 'bottom': bottomPer + 7 + '%' }).addClass('svg-popover--reverse');
+      } else if (screen_width > 900 && screen_width <= 1000) {
+        mydiv.css({ 'left': leftPer + 1 + '%', 'bottom': bottomPer + 7 + '%' }).addClass('svg-popover--reverse');
+      } else if (screen_width > 1000 && screen_width <= 1100) {
+        mydiv.css({ 'left': leftPer + 1 + '%', 'bottom': bottomPer + 7 + '%' }).addClass('svg-popover--reverse');
+      } else if (screen_width > 1100 && screen_width <= 1200) {
+        mydiv.css({ 'left': leftPer + 1 + '%', 'bottom': bottomPer + 7 + '%' }).addClass('svg-popover--reverse');
+      } else if (screen_width > 1200 && screen_width <= 1300) {
+        mydiv.css({ 'left': leftPer + 1 + '%', 'bottom': bottomPer + 7 + '%' }).addClass('svg-popover--reverse');
+      } else if (screen_width > 1300 && screen_width <= 1400) {
+        mydiv.css({ 'left': leftPer + 1 + '%', 'bottom': bottomPer + 7 + '%' }).addClass('svg-popover--reverse');
+      } else if (screen_width > 1400 && screen_width <= 1500) {
+        mydiv.css({ 'left': leftPer + 1 + '%', 'bottom': bottomPer + 4 + '%' }).addClass('svg-popover--reverse');
+      } else if (screen_width > 1500 && screen_width <= 1600) {
+        mydiv.css({ 'left': leftPer + 1 + '%', 'bottom': bottomPer + 3 + '%' }).addClass('svg-popover--reverse');
       } else {
         mydiv.css({ 'left': leftPer + 1 + '%', 'bottom': bottomPer - 4 + '%' }).addClass('svg-popover--reverse');
       }
     } else {
       if (screen_width <= 767) {
         mydiv.css({ 'right': rightPer - 4 + '%', 'bottom': bottomPer + 10 + '%' });
+      } else if (screen_width > 767 && screen_width <= 900) {
+        mydiv.css({ 'left': leftPer + 1 + '%', 'bottom': bottomPer + 9 + '%' }).addClass('svg-popover--reverse');
+      } else if (screen_width > 900 && screen_width <= 1000) {
+        mydiv.css({ 'left': leftPer + 1 + '%', 'bottom': bottomPer + 9 + '%' }).addClass('svg-popover--reverse');
+      } else if (screen_width > 1000 && screen_width <= 1100) {
+        mydiv.css({ 'left': leftPer + 1 + '%', 'bottom': bottomPer + 9 + '%' }).addClass('svg-popover--reverse');
+      } else if (screen_width > 1100 && screen_width <= 1200) {
+        mydiv.css({ 'left': leftPer + 1 + '%', 'bottom': bottomPer + 12 + '%' }).addClass('svg-popover--reverse');
+      } else if (screen_width > 1200 && screen_width <= 1300) {
+        mydiv.css({ 'left': leftPer + 1 + '%', 'bottom': bottomPer + 9 + '%' }).addClass('svg-popover--reverse');
+      } else if (screen_width > 1300 && screen_width <= 1400) {
+        mydiv.css({ 'left': leftPer + 1 + '%', 'bottom': bottomPer + 6.5 + '%' }).addClass('svg-popover--reverse');
+      } else if (screen_width > 1400 && screen_width <= 1500) {
+        mydiv.css({ 'left': leftPer + 1 + '%', 'bottom': bottomPer + 4 + '%' }).addClass('svg-popover--reverse');
+      } else if (screen_width > 1500 && screen_width <= 1600) {
+        mydiv.css({ 'left': leftPer + 1 + '%', 'bottom': bottomPer + 3 + '%' }).addClass('svg-popover--reverse');
       } else {
         mydiv.css({ 'right': rightPer - 4 + '%', 'bottom': bottomPer - 4 + '%' });
       }

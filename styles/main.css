@@ -41,10 +41,10 @@
   font-weight: normal;
   font-style: normal; }
 
-.is-icons--area:before, .is-icons--brush:before, .is-icons--vega:before, .is-icons--team:before, .is-icons--serv:before, .is-icons--question:before, .is-icons--sort-arr:before, .is-icons--condicioner:before, .is-icons--nextw-arr:before, .is-icons--search-lg:before, .is-icons--camera:before, .is-icons--close:before, .is-icons--close-gen:before, .is-icons--close-lg:before, .is-icons--loc:before, .is-icons--menu:before, .is-icons--parking:before, .is-icons--bill:before, .is-icons--prevw-arr:before, .is-icons--prev-arr:before, .is-icons--next-arr:before, .is-icons--news-arr:before, .is-icons--crumbs-arr:before, .is-icons--down-arr:before, .is-icons--envelope:before, .is-icons--house:before, .is-icons--list:before, .is-icons--VK:before, .is-icons--door:before, .is-icons--video:before, .is-icons--Search:before, .is-icons--search-blue:before, .is-icons--cleaning:before, .is-icons--light:before, .is-icons--dollar:before, .is-icons--bus:before, .is-icons--choice:before, .is-icons--F:before, .is-icons--fan:before, .is-icons--star:before, .is-icons--Insta:before, .is-icons--genplan:before, .is-icons--mouse:before, .is-icons--PDF:before, .is-icons--Phone:before, .is-icons--phone-blue:before, .is-icons--photo:before, .is-icons--security:before, .is-icons--stroller:before, .breadcrumbs__item + .breadcrumbs__item:before {
+.is-icons--area:before, .is-icons--brush:before, .is-icons--vega:before, .is-icons--team:before, .is-icons--serv:before, .is-icons--question:before, .is-icons--sort-arr:before, .is-icons--condicioner:before, .is-icons--nextw-arr:before, .is-icons--search-lg:before, .is-icons--camera:before, .is-icons--close:before, .is-icons--close-gen:before, .is-icons--close-lg:before, .is-icons--loc:before, .is-icons--menu:before, .is-icons--parking:before, .is-icons--hexa-ico:before, .is-icons--hex-ico:before, .is-icons--bill:before, .is-icons--prevw-arr:before, .is-icons--prev-arr:before, .is-icons--next-arr:before, .is-icons--news-arr:before, .is-icons--crumbs-arr:before, .is-icons--down-arr:before, .is-icons--envelope:before, .is-icons--house:before, .is-icons--list:before, .is-icons--VK:before, .is-icons--door:before, .is-icons--video:before, .is-icons--Search:before, .is-icons--search-blue:before, .is-icons--cleaning:before, .is-icons--light:before, .is-icons--dollar:before, .is-icons--bus:before, .is-icons--choice:before, .is-icons--F:before, .is-icons--fan:before, .is-icons--star:before, .is-icons--Insta:before, .is-icons--genplan:before, .is-icons--mouse:before, .is-icons--PDF:before, .is-icons--Phone:before, .is-icons--phone-blue:before, .is-icons--photo:before, .is-icons--security:before, .is-icons--stroller:before, .breadcrumbs__item + .breadcrumbs__item:before {
   background-image: url("../images/svg/sprite.svg");
-  -moz-background-size: 181.42857em 6em;
-       background-size: 181.42857em 6em; }
+  -moz-background-size: 186.85714em 6em;
+       background-size: 186.85714em 6em; }
 
 .is-icons {
   display: inline-block; }
@@ -62,23 +62,23 @@
   .is-icons--vega:before {
     width: 2.92857em;
     height: 2.92857em;
-    background-position: -174.28571em -0.71429em; }
+    background-position: -179.71429em -0.71429em; }
   .is-icons--team:before {
     width: 2.92857em;
     height: 2.92857em;
-    background-position: -170em -0.71429em; }
+    background-position: -175.42857em -0.71429em; }
   .is-icons--serv:before {
     width: 2.92857em;
     height: 2.92857em;
-    background-position: -153.07143em -0.71429em; }
+    background-position: -158.5em -0.71429em; }
   .is-icons--question:before {
     width: 1.57143em;
     height: 1.57143em;
-    background-position: -137.92857em -0.71429em; }
+    background-position: -143.35714em -0.71429em; }
   .is-icons--sort-arr:before {
     width: 1em;
     height: 1.42857em;
-    background-position: -157.35714em -0.71429em; }
+    background-position: -162.78571em -0.71429em; }
   .is-icons--condicioner:before {
     width: 4.64286em;
     height: 4.64286em;
@@ -86,11 +86,11 @@
   .is-icons--nextw-arr:before {
     width: 1em;
     height: 1.28571em;
-    background-position: -120.42857em -0.71429em; }
+    background-position: -125.85714em -0.71429em; }
   .is-icons--search-lg:before {
     width: 2.07143em;
     height: 2em;
-    background-position: -143.64286em -0.71429em; }
+    background-position: -149.07143em -0.71429em; }
   .is-icons--camera:before {
     width: 4.64286em;
     height: 4.64286em;
@@ -110,15 +110,23 @@
   .is-icons--loc:before {
     width: 2.07143em;
     height: 2.64286em;
-    background-position: -106.64286em -0.71429em; }
+    background-position: -112.07143em -0.71429em; }
   .is-icons--menu:before {
     width: 1.5em;
     height: 1.28571em;
-    background-position: -110.07143em -0.71429em; }
+    background-position: -115.5em -0.71429em; }
   .is-icons--parking:before {
     width: 2.92857em;
     height: 2.92857em;
-    background-position: -122.78571em -0.71429em; }
+    background-position: -128.21429em -0.71429em; }
+  .is-icons--hexa-ico:before {
+    width: 1.35714em;
+    height: 1.57143em;
+    background-position: -96.35714em -0.71429em; }
+  .is-icons--hex-ico:before {
+    width: 1.35714em;
+    height: 1.57143em;
+    background-position: -93.64286em -0.71429em; }
   .is-icons--bill:before {
     width: 4.64286em;
     height: 4.64286em;
@@ -126,19 +134,19 @@
   .is-icons--prevw-arr:before {
     width: 0.85714em;
     height: 1.14286em;
-    background-position: -135.71429em -0.71429em; }
+    background-position: -141.14286em -0.71429em; }
   .is-icons--prev-arr:before {
     width: 0.85714em;
     height: 1.14286em;
-    background-position: -133.5em -0.71429em; }
+    background-position: -138.92857em -0.71429em; }
   .is-icons--next-arr:before {
     width: 0.78571em;
     height: 1.07143em;
-    background-position: -118.28571em -0.71429em; }
+    background-position: -123.71429em -0.71429em; }
   .is-icons--news-arr:before {
     width: 0.78571em;
     height: 1.07143em;
-    background-position: -116.14286em -0.71429em; }
+    background-position: -121.57143em -0.71429em; }
   .is-icons--crumbs-arr:before {
     width: 0.64286em;
     height: 1em;
@@ -154,11 +162,11 @@
   .is-icons--house:before {
     width: 1.35714em;
     height: 1.35714em;
-    background-position: -93.64286em -0.71429em; }
+    background-position: -99.07143em -0.71429em; }
   .is-icons--list:before {
     width: 2.92857em;
     height: 2.92857em;
-    background-position: -102.35714em -0.71429em; }
+    background-position: -107.78571em -0.71429em; }
   .is-icons--VK:before {
     width: 1.85714em;
     height: 1.85714em;
@@ -170,7 +178,7 @@
   .is-icons--video:before {
     width: 2.21429em;
     height: 2.21429em;
-    background-position: -178.57143em -0.71429em; }
+    background-position: -184em -0.71429em; }
   .is-icons--Search:before {
     width: 1.78571em;
     height: 1.78571em;
@@ -178,7 +186,7 @@
   .is-icons--search-blue:before {
     width: 1.42857em;
     height: 1.42857em;
-    background-position: -140.85714em -0.71429em; }
+    background-position: -146.28571em -0.71429em; }
   .is-icons--cleaning:before {
     width: 4.64286em;
     height: 4.64286em;
@@ -186,7 +194,7 @@
   .is-icons--light:before {
     width: 4.64286em;
     height: 4.64286em;
-    background-position: -96.35714em -0.71429em; }
+    background-position: -101.78571em -0.71429em; }
   .is-icons--dollar:before {
     width: 3.78571em;
     height: 2.35714em;
@@ -210,7 +218,7 @@
   .is-icons--star:before {
     width: 2.92857em;
     height: 2.92857em;
-    background-position: -159.71429em -0.71429em; }
+    background-position: -165.14286em -0.71429em; }
   .is-icons--Insta:before {
     width: 1.85714em;
     height: 1.85714em;
@@ -222,7 +230,7 @@
   .is-icons--mouse:before {
     width: 1.85714em;
     height: 3em;
-    background-position: -112.92857em -0.71429em; }
+    background-position: -118.35714em -0.71429em; }
   .is-icons--PDF:before {
     width: 1.34286em;
     height: 1.07143em;
@@ -234,19 +242,19 @@
   .is-icons--phone-blue:before {
     width: 1.5em;
     height: 1.5em;
-    background-position: -127.07143em -0.71429em; }
+    background-position: -132.5em -0.71429em; }
   .is-icons--photo:before {
     width: 2.21429em;
     height: 2.21429em;
-    background-position: -129.92857em -0.71429em; }
+    background-position: -135.35714em -0.71429em; }
   .is-icons--security:before {
     width: 4.64286em;
     height: 4.64286em;
-    background-position: -147.07143em -0.71429em; }
+    background-position: -152.5em -0.71429em; }
   .is-icons--stroller:before {
     width: 4.64286em;
     height: 4.64286em;
-    background-position: -164em -0.71429em; }
+    background-position: -169.42857em -0.71429em; }
 
 @media screen and (max-width: 1839px) {
   .mfp-figure figure {
@@ -306,21 +314,38 @@
 
 /* '' */
 .slick-dots {
-  bottom: -25px;
   width: auto;
   z-index: 10;
   left: 0;
   right: 0;
-  text-align: center; }
+  text-align: center;
+  margin: auto;
+  bottom: 60px; }
   @media screen and (min-width: 768px) {
     .slick-dots {
-      right: 50px;
+      right: 25px;
+      bottom: 0;
       top: 0;
       text-align: right;
-      left: auto; } }
+      left: auto;
+      height: 130px; } }
+  .slick-dots li {
+    margin-bottom: 18px;
+    margin-right: 15px; }
+    .slick-dots li button::before {
+      content: '';
+      display: inline-block;
+      width: 16px;
+      height: 18px;
+      background: url("../images/icons/hex-ico.png") no-repeat center; }
+    .slick-dots li.slick-active button::before {
+      background: url("../images/icons/hexa-ico.png") no-repeat center; }
 
 .slick-slide {
   position: relative; }
+
+.slideshow.slick-slider {
+  position: static; }
 
 .select2-container--default .select2-selection--single .select2-selection__arrow {
   height: 100%; }
@@ -362,7 +387,20 @@
       .main-popup-title {
         margin-bottom: 50px; } }
   .main-popup--bg {
+    background-color: #fff;
+    position: relative; }
+  .main-popup--bgab::after, .main-popup--bgab::before {
+    content: '';
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    width: 100%;
+    height: 100%;
     background-color: #fff; }
+  .main-popup--bgab::after {
+    left: 100%; }
+  .main-popup--bgab::before {
+    right: 100%; }
   .main-popup--sd {
     -webkit-box-shadow: 4px 6px 23px rgba(70, 74, 84, 0.22);
        -moz-box-shadow: 4px 6px 23px rgba(70, 74, 84, 0.22);
@@ -386,7 +424,8 @@
     max-width: 900px; }
     @media screen and (min-width: 768px) {
       .main-popup--md {
-        padding: 50px 20px; } }
+        padding: 20px;
+        width: 900px; } }
   .main-popup--lg {
     padding: 40px 10px;
     max-width: 1265px; }
@@ -599,6 +638,12 @@ body {
     body {
       font-size: 14px; } }
 
+.page-index {
+  overflow-x: hidden; }
+
+.page-fix {
+  overflow: hidden; }
+
 a {
   color: #00b9ff;
   -webkit-transition: all 0.3s ease;
@@ -630,7 +675,7 @@ sup {
   left: 2px;
   font-family: 'gilroyregular', sans-serif; }
 
-.ffbold, .btn, select.control, .select2-container--default select.select2-selection--single, .checkbox label, b, .uikit ol > li::before, .svg-popover__right, .page-footer, .page-header, .aside-menu__item, .shop-subtitle, .shop-title, .blurb__item, .card-info, .card-list, .card-edge__item-title, .rangeslider-value, .rangeslider sup, .noUi-value, .gallery-txt, .lease__item-txt {
+.ffbold, .btn, select.control, .select2-container--default select.select2-selection--single, b, .uikit ol > li::before, .svg-popover__right, .page-footer, .page-header, .aside-menu__item, .shop-subtitle, .shop-title, .blurb__item, .card-info, .card-list, .card-edge__item-title, .rangeslider-value, .rangeslider sup, .noUi-value, .gallery-txt, .lease__item-txt {
   font-family: 'gilroybold', sans-serif; }
 
 .ffmed, .shop-list, .shop-desc, .page404-subtitle {
@@ -687,6 +732,10 @@ sup {
   @media screen and (min-width: 1840px) {
     .mb50, .card-list__item {
       margin-bottom: 50px; } }
+
+@media screen and (-ms-high-contrast: active), (-ms-high-contrast: none) {
+  svg image {
+    width: 100%; } }
 
 @media screen and (min-width: 768px) {
   .vh-height, .genplan {
@@ -835,7 +884,7 @@ sup {
           top: -2px;
           bottom: -2px;
           right: 100%;
-          width: 100%;
+          width: 150%;
           -webkit-transition: all 0.3s ease;
           -moz-transition: all 0.3s ease;
           -o-transition: all 0.3s ease;
@@ -986,15 +1035,9 @@ input[type="search"] {
 .radio input[type="radio"] {
   display: none; }
 
-.checkbox label {
-  text-transform: uppercase;
-  margin-top: 3px;
-  padding-left: 40px; }
-  .checkbox label:after {
-    width: 29px;
-    height: 29px;
-    -moz-border-radius: 0;
-    border-radius: 0; }
+.checkbox label:after {
+  -moz-border-radius: 50%;
+  border-radius: 50%; }
 
 .radio label:after {
   -moz-border-radius: 50%;
@@ -1002,7 +1045,7 @@ input[type="search"] {
 
 .checkbox input[type="checkbox"]:checked + label:after {
   border-color: #00b9ff;
-  background: url("../images/icons/icon-checkbox.svg") center center no-repeat, #fff; }
+  background: url("../images/icons/icon-radio.svg") top left no-repeat, #fff; }
 
 .radio input[type="radio"]:checked + label:after {
   border-color: #00b9ff;
@@ -2355,6 +2398,9 @@ nav {
     @media screen and (min-width: 768px) {
       .main-nav__link {
         padding: 10px 3px; } }
+    @media screen and (min-width: 1300px) {
+      .main-nav__link {
+        padding: 10px; } }
     @media screen and (min-width: 1840px) {
       .main-nav__link {
         padding: 10px 15px; } }
@@ -2364,9 +2410,24 @@ nav {
     .main-nav__link.active {
       border-left: 5px solid #00b9ff; }
     .main-nav__link:hover, .main-nav__link:focus {
-      color: #fff;
-      background-color: #00b9ff;
-      text-decoration: none; }
+      text-decoration: none;
+      position: relative; }
+      .main-nav__link:hover::before, .main-nav__link:focus::before {
+        content: '';
+        position: absolute;
+        top: 0;
+        bottom: 0;
+        left: -10px;
+        width: 5px;
+        height: 20px;
+        margin: auto;
+        background-color: #00c1ff; }
+      @media screen and (min-width: 768px) {
+        .main-nav__link:hover, .main-nav__link:focus {
+          color: #fff;
+          background-color: #00b9ff; }
+          .main-nav__link:hover::before, .main-nav__link:focus::before {
+            display: none; } }
   .main-nav img {
     max-width: none; }
   .main-nav__toggle {
@@ -2388,7 +2449,7 @@ nav {
     position: fixed;
     top: -200%;
     z-index: 99;
-    padding: 10px 0 30px;
+    padding: 10px 10px 30px;
     left: 0;
     right: 0;
     overflow-y: auto;
@@ -2397,6 +2458,17 @@ nav {
     -o-transition: all 0.3s ease;
     transition: all 0.3s ease;
     -webkit-overflow-scrolling: touch; }
+    .main-nav__collapse-footer {
+      -webkit-box-shadow: inset 3px 4px 7px rgba(70, 74, 84, 0.07);
+         -moz-box-shadow: inset 3px 4px 7px rgba(70, 74, 84, 0.07);
+              box-shadow: inset 3px 4px 7px rgba(70, 74, 84, 0.07);
+      padding: 20px;
+      position: absolute;
+      left: 0;
+      right: 0;
+      bottom: 0; }
+      .main-nav__collapse-footer a {
+        color: rgba(3, 3, 3, 0.3) !important; }
     .main-nav__collapse.collapse {
       top: 0;
       bottom: 0; }
@@ -2525,7 +2597,14 @@ button.close {
 
 svg {
   vertical-align: middle;
-  position: relative; }
+  position: relative;
+  width: 100%;
+  height: -webkit-calc(100vh - 250px);
+  height: -moz-calc(100vh - 250px);
+  height: calc(100vh - 250px); }
+  @media screen and (min-width: 1840px) {
+    svg {
+      height: auto; } }
 
 polygon {
   cursor: pointer;
@@ -2628,9 +2707,6 @@ polygon {
 .genplan-main__formobile {
   min-width: 1150px;
   position: relative; }
-  @media screen and (min-width: 768px) {
-    .genplan-main__formobile {
-      min-width: 1800px; } }
 
 .genplan-main .contacts-map {
   bottom: 0;
@@ -2657,8 +2733,8 @@ polygon {
 
 .genplan-main__img {
   position: absolute;
-  bottom: 10%;
-  left: 10%;
+  bottom: 13%;
+  left: 6%;
   z-index: 1;
   display: none;
   width: 70px; }
@@ -2726,6 +2802,11 @@ polygon {
   @media screen and (min-width: 940px) and (min-width: 1300px) {
     .genplan-main__infowindow {
       max-width: 600px; } }
+  .genplan-main__infowindow-footer {
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    right: 0; }
   .genplan-main__infowindow span {
     vertical-align: inherit; }
   .genplan-main__infowindow-in {
@@ -2768,11 +2849,7 @@ polygon {
          -moz-transform: scale(1);
           -ms-transform: scale(1);
            -o-transform: scale(1);
-              transform: scale(1);
-      margin-top: 0; } }
-  @media screen and (min-width: 1840px) {
-    .sub-svg {
-      margin-top: -160px; } }
+              transform: scale(1); } }
 
 .genplan-pop {
   cursor: pointer;
@@ -2890,13 +2967,16 @@ svg .error:hover {
   letter-spacing: 0.56px;
   padding-top: 20px;
   padding-bottom: 20px; }
-  @media screen and (min-width: 768px) {
-    .page-footer--fix {
-      position: absolute;
-      bottom: 0;
-      left: 0;
-      right: 0; } }
-  @media screen and (min-width: 1300px) {
+  .page-footer--fix {
+    padding-left: 30px;
+    padding-right: 30px; }
+    @media screen and (min-width: 768px) {
+      .page-footer--fix {
+        position: absolute;
+        bottom: 0;
+        left: 0;
+        right: 0; } }
+  @media screen and (min-width: 1840px) {
     .page-footer {
       padding-bottom: 40px; } }
   .page-footer a {
@@ -2912,7 +2992,7 @@ i + a,
 span + i,
 i + span {
   margin-left: 10px; }
-  @media screen and (min-width: 1300px) {
+  @media screen and (min-width: 1840px) {
     img + span,
     i + a,
     span + i,
@@ -2943,10 +3023,14 @@ i + span {
     display: -webkit-flex;
     display: -moz-box;
     display: -ms-flexbox;
-    display: flex; }
+    display: flex;
+    margin-left: 2px; }
+    .page-header__link .is-icons {
+      width: 22px; }
     @media screen and (min-width: 768px) {
       .page-header__link {
-        font-size: 10px; } }
+        font-size: 10px;
+        margin-left: 0; } }
     @media screen and (min-width: 1300px) {
       .page-header__link {
         font-size: inherit; } }
@@ -2983,12 +3067,12 @@ i + span {
           top: 0;
           bottom: 0;
           width: 4px; } }
-    @media screen and (min-width: 940px) {
+    @media screen and (min-width: 768px) {
       .page-header__search::after {
-        width: 10px; } }
-    @media screen and (min-width: 1300px) {
+        width: 50px; } }
+    @media screen and (min-width: 1400px) {
       .page-header__search::after {
-        width: 47px; } }
+        width: 400px; } }
 
 .page-main {
   min-height: -webkit-calc(100vh - 214px);
@@ -3535,7 +3619,8 @@ aside {
       padding: 20px 10px;
       position: relative;
       color: #fff;
-      background-color: #459fd9; }
+      background-color: #459fd9;
+      font-family: 'gilroybold'; }
       @media screen and (min-width: 768px) {
         .shop-links__item {
           height: 80px;
@@ -3974,6 +4059,14 @@ aside {
 
 .genplan {
   position: relative; }
+  .genplan-main {
+    background: #78797E; }
+    .genplan-main__item {
+      background: #78797E; }
+    .genplan-main svg {
+      height: -webkit-calc(100vh - 50px);
+      height: -moz-calc(100vh - 50px);
+      height: calc(100vh - 50px); }
   @media screen and (max-width: 1299px) {
     .genplan-3d {
       height: auto; } }
@@ -3985,12 +4078,15 @@ aside {
       margin-bottom: 0; }
       .genplan-scheme .card-info__item {
         margin-bottom: 25px; } }
-  @media screen and (min-width: 1300px) {
+  @media screen and (min-width: 768px) {
     .genplan-scheme aside h1 {
       margin-top: 50px; } }
-  @media screen and (min-width: 1840px) {
+  @media screen and (min-width: 1300px) {
     .genplan-scheme aside h1 {
       margin-top: 20px; } }
+  @media screen and (min-width: 1840px) {
+    .genplan-scheme aside h1 {
+      margin-top: 50px; } }
   .genplan-notice {
     color: #fff;
     padding: 15px 30px;
@@ -4038,6 +4134,10 @@ aside {
     @media screen and (min-width: 1300px) {
       .genplan-notice {
         left: -50px; } }
+  @media screen and (min-width: 1300px) {
+    .genplan-txt {
+      margin-top: 0;
+      margin-bottom: 0; } }
   .genplan-litera {
     position: absolute;
     right: 0;
@@ -4060,7 +4160,10 @@ aside {
     margin-top: 130px; }
     @media screen and (min-width: 768px) {
       .genplan-code {
-        margin-top: 30px; } }
+        margin-top: 0; } }
+    @media screen and (min-width: 1840px) {
+      .genplan-code {
+        margin-top: 50px; } }
     @media screen and (max-width: 767px) {
       .genplan-code--3d {
         -webkit-transform: scale(2);

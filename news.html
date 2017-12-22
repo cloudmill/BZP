@@ -51,8 +51,8 @@
               </div>
             </div>
             <div class="form__group">
-              <div class="radio">
-                <input type="radio" name="useron" id="useron">
+              <div class="checkbox">
+                <input type="checkbox" name="useron" id="useron">
                 <label class="label" for="useron">Я согласен на обработку моих персональных данных. <a href="#">Политика обработки персональных данных</a></label>
               </div>
             </div>
@@ -97,8 +97,8 @@
               </div>
             </div>
             <div class="form__group">
-              <div class="radio">
-                <input type="radio" name="useron1" id="useron1">
+              <div class="checkbox">
+                <input type="checkbox" name="useron1" id="useron1">
                 <label class="label" for="useron1">Я согласен на обработку моих персональных данных. <a href="#">Политика обработки персональных данных</a></label>
               </div>
             </div>
@@ -184,7 +184,7 @@
         </div>
       </div>
       <!--upload content - using ajax-->
-      <div class="main-popup--bg">
+      <div class="main-popup--bg main-popup--bgab">
         <div class="main-popup main-popup--md search-results">
           <h2 class="search-results-title">По запросу «Торговое помещение» </h2>
           <div class="search-results-subtitle text__md text--uppercase">найдено <b>68</b> результатов</div><a class="search-results__item is-row stretch__xs" href="#">
@@ -250,12 +250,12 @@
                     <ul class="main-nav">
                       <li class="main-nav__item main-nav__item--parent"><a class="main-nav__link" href="/" title="О бизнес парке">О бизнес парке</a>
                         <ul class="sub-nav">
-                          <li class="main-nav__item"><a class="main-nav__link" href="#" title="О Компании   ">О Компании   </a></li>
-                          <li class="main-nav__item"><a class="main-nav__link" href="#" title="Арендаторы   ">Арендаторы   </a></li>
-                          <li class="main-nav__item"><a class="main-nav__link" href="#" title="Новости ">Новости </a></li>
-                          <li class="main-nav__item"><a class="main-nav__link" href="#" title="Услуги  ">Услуги  </a></li>
-                          <li class="main-nav__item"><a class="main-nav__link" href="#" title="Инфраструктура     ">Инфраструктура     </a></li>
-                          <li class="main-nav__item"><a class="main-nav__link" href="#" title="Размещение рекламы      ">Размещение рекламы      </a></li>
+                          <li class="main-nav__item"><a class="main-nav__link" href="#" title="О Компании">О Компании</a></li>
+                          <li class="main-nav__item"><a class="main-nav__link" href="#" title="Арендаторы">Арендаторы</a></li>
+                          <li class="main-nav__item"><a class="main-nav__link" href="#" title="Новости">Новости</a></li>
+                          <li class="main-nav__item"><a class="main-nav__link" href="#" title="Услуги">Услуги</a></li>
+                          <li class="main-nav__item"><a class="main-nav__link" href="#" title="Инфраструктура">Инфраструктура</a></li>
+                          <li class="main-nav__item"><a class="main-nav__link" href="#" title="Размещение рекламы">Размещение рекламы</a></li>
                           <li class="main-nav__item"><a class="main-nav__link" href="#" title="Медиатека">Медиатека</a></li>
                         </ul>
                       </li>
@@ -269,6 +269,18 @@
                   <div class="hidden__md hidden__lg hidden__xl">
                     <div class="page-header__link is-col mt20"><i class="is-icons is-icons--PDF"></i><a href="#">Презентация комплекса</a></div>
                     <div class="page-header__link is-col mt20"><i class="is-icons is-icons--Phone"></i><a class="popup" href="#form-id">обратный звонок</a></div>
+                  </div>
+                  <div class="main-nav__collapse-footer hidden__md hidden__lg hidden__xl">
+                    <div class="is-row between__xs middle__xs">
+                      <div class="is-col"> 
+                        <div class="socials">
+                          <div class="socials__item"><a href="#"><i class="icon-f"></i></a></div>
+                          <div class="socials__item"><a href="#"><i class="icon-insta"></i></a></div>
+                          <div class="socials__item"><a href="#"><i class="icon-vk"></i></a></div>
+                        </div>
+                      </div>
+                      <div class="is-col"><a class="text--uppercase text--grey" href="#">сделано в cloudmill</a></div>
+                    </div>
                   </div>
                 </div>
               </nav>
@@ -304,10 +316,10 @@
                   <li class="aside-menu__item"><a href="#">О Компании</a></li>
                   <li class="aside-menu__item"><a class="active" href="news.html">Новости</a></li>
                   <li class="aside-menu__item"><a href="infrastructure.html">Инфраструктура</a></li>
-                  <li class="aside-menu__item"><a href="gallery.html"> Медиатека</a></li>
+                  <li class="aside-menu__item"><a href="gallery.html">Медиатека</a></li>
                   <li class="aside-menu__item"><a href="lease.html">Арендаторы</a></li>
                   <li class="aside-menu__item"><a href="services.html">Услуги</a></li>
-                  <li class="aside-menu__item"><a href="advert.html"> Размещение рекламы  </a></li>
+                  <li class="aside-menu__item"><a href="advert.html">Размещение рекламы</a></li>
                 </ul>
               </aside>
               <section class="is-col is-col__xl-6 is-col__lg-7 is-col__md-8 is-col__xs-12">
@@ -315,31 +327,31 @@
                   <div class="is-col is-col__lg-2 is-col__md-3 is-col__xs-4">
                     <div class="relative"><i class="is-icons is-icons--news-arr"></i><img src="images/search.jpg" alt=""></div>
                   </div>
-                  <div class="search-results__item-desc is-col is-col__lg-6 is-col__xs-8"><b class="flex-top text--uppercase">Мы обладаем достаточными мощностями и всеми  необходимыми ресурсами</b>
+                  <div class="search-results__item-desc is-col is-col__lg-6 is-col__xs-8"><b class="flex-top text--uppercase">Мы обладаем достаточными мощностями и всеми необходимыми ресурсами</b>
                     <div class="flex-end text--grey"><i class="icon-clock"></i><span class="text__sm">16 марта 2017, 11:07</span></div>
                   </div></a><a class="search-results__item is-row stretch__xs" href="one-news.html">
                   <div class="is-col is-col__lg-2 is-col__md-3 is-col__xs-4">
                     <div class="relative"><i class="is-icons is-icons--news-arr"></i><img src="images/search.jpg" alt=""></div>
                   </div>
-                  <div class="search-results__item-desc is-col is-col__lg-6 is-col__xs-8"><b class="flex-top text--uppercase">Бизнес Парк имеет превосходную  транспортную доступность</b>
+                  <div class="search-results__item-desc is-col is-col__lg-6 is-col__xs-8"><b class="flex-top text--uppercase">Бизнес Парк имеет превосходную транспортную доступность</b>
                     <div class="flex-end text--grey"><i class="icon-clock"></i><span class="text__sm">23 февраля 2017, 07:49</span></div>
                   </div></a><a class="search-results__item is-row stretch__xs" href="one-news.html">
                   <div class="is-col is-col__lg-2 is-col__md-3 is-col__xs-4">
                     <div class="relative"><i class="is-icons is-icons--news-arr"></i><img src="images/search.jpg" alt=""></div>
                   </div>
-                  <div class="search-results__item-desc is-col is-col__lg-6 is-col__xs-8"><b class="flex-top text--uppercase">Основным направлением в развитии Бизнес парка  «На Цветочной, 18» является...</b>
+                  <div class="search-results__item-desc is-col is-col__lg-6 is-col__xs-8"><b class="flex-top text--uppercase">Основным направлением в развитии Бизнес парка «На Цветочной, 18» является...</b>
                     <div class="flex-end text--grey"><i class="icon-clock"></i><span class="text__sm">12 февраля 2017, 19:07</span></div>
                   </div></a><a class="search-results__item is-row stretch__xs" href="one-news.html">
                   <div class="is-col is-col__lg-2 is-col__md-3 is-col__xs-4">
                     <div class="relative"><i class="is-icons is-icons--news-arr"></i><img src="images/search.jpg" alt=""></div>
                   </div>
-                  <div class="search-results__item-desc is-col is-col__lg-6 is-col__xs-8"><b class="flex-top text--uppercase">Профессиональные управляющие компании осуществляют  комплексное обслуживание...</b>
+                  <div class="search-results__item-desc is-col is-col__lg-6 is-col__xs-8"><b class="flex-top text--uppercase">Профессиональные управляющие компании осуществляют комплексное обслуживание...</b>
                     <div class="flex-end text--grey"><i class="icon-clock"></i><span class="text__sm">23 февраля 2017, 07:49</span></div>
                   </div></a><a class="search-results__item is-row stretch__xs" href="one-news.html">
                   <div class="is-col is-col__lg-2 is-col__md-3 is-col__xs-4">
                     <div class="relative"><i class="is-icons is-icons--news-arr"></i><img src="images/search.jpg" alt=""></div>
                   </div>
-                  <div class="search-results__item-desc is-col is-col__lg-6 is-col__xs-8"><b class="flex-top text--uppercase">Основным направлением в развитии Бизнес парка  «На Цветочной, 18» является...</b>
+                  <div class="search-results__item-desc is-col is-col__lg-6 is-col__xs-8"><b class="flex-top text--uppercase">Основным направлением в развитии Бизнес парка «На Цветочной, 18» является...</b>
                     <div class="flex-end text--grey"><i class="icon-clock"></i><span class="text__sm">17 января 2017, 10:25</span></div>
                   </div></a>
                 <div class="text--center">
@@ -349,31 +361,31 @@
                     <div class="is-col is-col__lg-2 is-col__md-3 is-col__xs-4">
                       <div class="relative"><i class="is-icons is-icons--news-arr"></i><img src="images/search.jpg" alt=""></div>
                     </div>
-                    <div class="search-results__item-desc is-col is-col__lg-6 is-col__xs-8"><b class="flex-top text--uppercase">Мы обладаем достаточными мощностями и всеми  необходимыми ресурсами</b>
+                    <div class="search-results__item-desc is-col is-col__lg-6 is-col__xs-8"><b class="flex-top text--uppercase">Мы обладаем достаточными мощностями и всеми необходимыми ресурсами</b>
                       <div class="flex-end text--grey"><i class="icon-clock"></i><span class="text__sm">16 марта 2017, 11:07</span></div>
                     </div></a><a class="search-results__item is-row stretch__xs" href="one-news.html">
                     <div class="is-col is-col__lg-2 is-col__md-3 is-col__xs-4">
                       <div class="relative"><i class="is-icons is-icons--news-arr"></i><img src="images/search.jpg" alt=""></div>
                     </div>
-                    <div class="search-results__item-desc is-col is-col__lg-6 is-col__xs-8"><b class="flex-top text--uppercase">Бизнес Парк имеет превосходную  транспортную доступность</b>
+                    <div class="search-results__item-desc is-col is-col__lg-6 is-col__xs-8"><b class="flex-top text--uppercase">Бизнес Парк имеет превосходную транспортную доступность</b>
                       <div class="flex-end text--grey"><i class="icon-clock"></i><span class="text__sm">23 февраля 2017, 07:49</span></div>
                     </div></a><a class="search-results__item is-row stretch__xs" href="one-news.html">
                     <div class="is-col is-col__lg-2 is-col__md-3 is-col__xs-4">
                       <div class="relative"><i class="is-icons is-icons--news-arr"></i><img src="images/search.jpg" alt=""></div>
                     </div>
-                    <div class="search-results__item-desc is-col is-col__lg-6 is-col__xs-8"><b class="flex-top text--uppercase">Основным направлением в развитии Бизнес парка  «На Цветочной, 18» является...</b>
+                    <div class="search-results__item-desc is-col is-col__lg-6 is-col__xs-8"><b class="flex-top text--uppercase">Основным направлением в развитии Бизнес парка «На Цветочной, 18» является...</b>
                       <div class="flex-end text--grey"><i class="icon-clock"></i><span class="text__sm">12 февраля 2017, 19:07</span></div>
                     </div></a><a class="search-results__item is-row stretch__xs" href="one-news.html">
                     <div class="is-col is-col__lg-2 is-col__md-3 is-col__xs-4">
                       <div class="relative"><i class="is-icons is-icons--news-arr"></i><img src="images/search.jpg" alt=""></div>
                     </div>
-                    <div class="search-results__item-desc is-col is-col__lg-6 is-col__xs-8"><b class="flex-top text--uppercase">Профессиональные управляющие компании осуществляют  комплексное обслуживание...</b>
+                    <div class="search-results__item-desc is-col is-col__lg-6 is-col__xs-8"><b class="flex-top text--uppercase">Профессиональные управляющие компании осуществляют комплексное обслуживание...</b>
                       <div class="flex-end text--grey"><i class="icon-clock"></i><span class="text__sm">23 февраля 2017, 07:49</span></div>
                     </div></a><a class="search-results__item is-row stretch__xs" href="one-news.html">
                     <div class="is-col is-col__lg-2 is-col__md-3 is-col__xs-4">
                       <div class="relative"><i class="is-icons is-icons--news-arr"></i><img src="images/search.jpg" alt=""></div>
                     </div>
-                    <div class="search-results__item-desc is-col is-col__lg-6 is-col__xs-8"><b class="flex-top text--uppercase">Основным направлением в развитии Бизнес парка  «На Цветочной, 18» является...</b>
+                    <div class="search-results__item-desc is-col is-col__lg-6 is-col__xs-8"><b class="flex-top text--uppercase">Основным направлением в развитии Бизнес парка «На Цветочной, 18» является...</b>
                       <div class="flex-end text--grey"><i class="icon-clock"></i><span class="text__sm">17 января 2017, 10:25</span></div>
                     </div></a></div>
               </section>

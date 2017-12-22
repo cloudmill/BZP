@@ -403,7 +403,7 @@
 
 .mfp-inline-holder .mfp-content,
 .mfp-ajax-holder .mfp-content {
-  width: 100%;
+  /*width: 100%;*/
   cursor: auto; }
 
 .mfp-ajax-cur {
@@ -644,7 +644,9 @@ img.mfp-img {
   cursor: pointer; }
 
 @media screen and (max-width: 800px) and (orientation: landscape), screen and (max-height: 300px) {
-
+  /**
+       * Remove all paddings around the image on small screen
+       */
   .mfp-img-mobile .mfp-image-holder {
     padding-left: 0;
     padding-right: 0; }
@@ -1052,7 +1054,7 @@ caption {
     display: inline-block;
 
     width: 15px;
-    height: 15px;
+    height: 18px;
     /*margin: 0 5px;*/
     padding: 0;
 
@@ -1060,16 +1062,19 @@ caption {
 }
 .slick-dots li button
 {
-    font-size: 0;
-    line-height: 0;
+    /*font-size: 0;*/
+    /*line-height: 0;*/
+    color: transparent;
 
     display: block;
 
-    width: 10px;
-    height: 10px;
+    width: 15px;
+    height: 18px;
+    border: none;
+    background: transparent;
     padding: 0;
-    border-radius: 50px;
-    border: 1px solid #00c1ff;
+    /*border-radius: 50px;*/
+    /*border: 1px solid #00c1ff;*/
 
     cursor: pointer;
 
@@ -1085,5 +1090,5 @@ caption {
 .slick-dots li button:hover,
 .slick-dots li button:focus
 {
-  background-color: #00c1ff;
+  /*background-color: #00c1ff;*/
 }
