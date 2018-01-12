@@ -2598,10 +2598,7 @@ button.close {
 svg {
   vertical-align: middle;
   position: relative;
-  width: 100%;
-  height: -webkit-calc(100vh - 250px);
-  height: -moz-calc(100vh - 250px);
-  height: calc(100vh - 250px); }
+  width: 100%; }
   @media screen and (min-width: 1840px) {
     svg {
       height: auto; } }
@@ -2698,14 +2695,21 @@ polygon {
       text-transform: none;
       background-color: rgba(60, 65, 76, 0.8); }
 
+@media screen and (min-width: 1000px) and (max-width: 1100px) {
+  .svg-main {
+    margin-left: -70px; } }
+
 .genplan-main__wrapper {
   overflow-x: auto; }
-  @media screen and (min-width: 1840px) {
+  @media screen and (min-width: 1000px) and (max-width: 1100px) {
+    .genplan-main__wrapper {
+      overflow-x: visible; } }
+  @media screen and (min-width: 1300px) {
     .genplan-main__wrapper {
       overflow-x: visible; } }
 
 .genplan-main__formobile {
-  min-width: 1150px;
+  min-width: 1100px;
   position: relative; }
 
 .genplan-main .contacts-map {
@@ -2774,6 +2778,11 @@ polygon {
   position: fixed;
   top: 0;
   left: 0;
+  right: 0;
+  bottom: 0;
+  width: 100%;
+  height: 100vh;
+  background: #78797E;
   min-width: 100%;
   min-height: 100%;
   width: auto;
@@ -2823,6 +2832,7 @@ polygon {
   min-height: 100%;
   width: auto;
   height: auto;
+  width: 100%;
   /*display: none;*/ }
 
 .sub-svg {
@@ -2969,13 +2979,11 @@ svg .error:hover {
   padding-bottom: 20px; }
   .page-footer--fix {
     padding-left: 30px;
-    padding-right: 30px; }
-    @media screen and (min-width: 768px) {
-      .page-footer--fix {
-        position: absolute;
-        bottom: 0;
-        left: 0;
-        right: 0; } }
+    padding-right: 30px;
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    right: 0; }
   @media screen and (min-width: 1840px) {
     .page-footer {
       padding-bottom: 40px; } }
@@ -3058,7 +3066,7 @@ i + span {
         background-color: #00b9ff; } }
     @media screen and (min-width: 768px) {
       .page-header__search {
-        padding: 12px 0 12px 25px; }
+        padding: 12px 0 12px 10px; }
         .page-header__search::after {
           content: '';
           background-color: #00b9ff;
@@ -3066,8 +3074,13 @@ i + span {
           left: 100%;
           top: 0;
           bottom: 0;
-          width: 4px; } }
-    @media screen and (min-width: 768px) {
+          width: 6px; } }
+    @media screen and (min-width: 1000px) {
+      .page-header__search {
+        padding: 12px 0 12px 25px; }
+        .page-header__search::after {
+          width: 10px; } }
+    @media screen and (min-width: 1300px) {
       .page-header__search::after {
         width: 50px; } }
     @media screen and (min-width: 1400px) {
@@ -4063,10 +4076,6 @@ aside {
     background: #78797E; }
     .genplan-main__item {
       background: #78797E; }
-    .genplan-main svg {
-      height: -webkit-calc(100vh - 50px);
-      height: -moz-calc(100vh - 50px);
-      height: calc(100vh - 50px); }
   @media screen and (max-width: 1299px) {
     .genplan-3d {
       height: auto; } }
