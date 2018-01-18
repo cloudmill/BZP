@@ -2852,14 +2852,15 @@ polygon {
       margin-top: -60px; } }
   @media screen and (min-width: 940px) {
     .sub-svg {
-      margin-top: -40px; } }
+      margin-top: -80px; } }
   @media screen and (min-width: 1300px) {
     .sub-svg {
       -webkit-transform: scale(1);
          -moz-transform: scale(1);
           -ms-transform: scale(1);
            -o-transform: scale(1);
-              transform: scale(1); } }
+              transform: scale(1);
+      margin-top: -140px; } }
 
 .genplan-pop {
   cursor: pointer;
