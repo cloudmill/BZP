@@ -2592,9 +2592,6 @@ button.close {
   background-color: transparent;
   border: 0; }
 
-.st0 {
-  fill: none; }
-
 svg {
   vertical-align: middle;
   position: relative;
@@ -2603,7 +2600,7 @@ svg {
     svg {
       height: auto; } }
 
-polygon {
+polygon, path {
   cursor: pointer;
   fill: transparent;
   pointer-events: visible; }
@@ -2987,7 +2984,7 @@ svg .error:hover {
     right: 0; }
   @media screen and (min-width: 1840px) {
     .page-footer {
-      padding-bottom: 40px; } }
+      padding-bottom: 30px; } }
   .page-footer a {
     text-decoration: none; }
   .page-footer .socials {
@@ -4080,6 +4077,10 @@ aside {
   @media screen and (max-width: 1299px) {
     .genplan-3d {
       height: auto; } }
+  .genplan-scheme aside {
+    -webkit-align-self: flex-start;
+        -ms-flex-item-align: start;
+            align-self: flex-start; }
   @media screen and (min-width: 768px) {
     .genplan-scheme aside h1 {
       margin-bottom: 20px;
@@ -4162,7 +4163,7 @@ aside {
       .genplan-litera {
         font-size: 580px;
         left: auto;
-        right: -210px; } }
+        right: -10%; } }
     @media screen and (min-width: 1300px) {
       .genplan-litera {
         font-size: 700px; } }

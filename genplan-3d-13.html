@@ -1,0 +1,411 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8">
+    <title>Case__fly</title><!--[if IE]>
+    <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1"><![endif]-->
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="description" content="Custom Jade/Scss/Gulp/Bower template">
+    <meta name="keywords" content="jade, scss, gulp, npm, bower, template, html5, css3">
+    <meta name="format-detection" content="telephone=no">
+    <meta name="format-detection" content="address=no">
+    <!-- iOS-->
+    <meta name="apple-mobile-web-app-capable" content="yes">
+    <meta name="apple-mobile-web-app-status-bar-style" content="black">
+    <meta name="apple-mobile-web-app-title" content="Case__fy">
+    <link rel="apple-touch-icon" href="images/touch/apple-touch-icon.png">
+    <!-- Android-->
+    <meta name="mobile-web-app-capable" content="yes">
+    <meta name="theme-color" content="#f8aa27">
+    <link rel="icon" type="image/png" href="images/touch/android-chrome-192x192.png" sizes="192x192">
+    <!-- Windows-->
+    <meta name="msapplication-TileImage" content="images/touch/mstile-144x144.png">
+    <meta name="msapplication-TileColor" content="#f8aa27">
+    <!-- Standard-->
+    <link rel="icon" type="image/png" href="images/touch/favicon.png" sizes="128x128">
+    <link rel="shortcut icon" href="favicon.ico">
+    <!-- Styles--><link rel="stylesheet" href="styles/plugins.css">
+<link rel="stylesheet" href="styles/main.css">
+  </head>
+  <body class="page-fix"><!--[if lt IE 9]>
+    <p class="browsehappy">Данный сайт построен на передовых, современных технологиях и не поддерживает Ваш браузер. Настоятельно рекомендуем выбрать и установить любой из &nbsp;<a href="http://browsehappy.com/" target="_blank">современных браузеров.</a> Это бесплатно и займет всего несколько минут.</p><![endif]-->
+    <div class="mfp-hide zoom-anim-dialog" id="form-id">
+      <div class="main-popup main-popup--md main-popup--bg main-popup--sd">
+        <div class="main-popup-header">
+          <div class="main-popup-title">
+            <h2>Заказать обратный звонок</h2>
+          </div>
+          <form action="#" method="method">
+            <div class="is-row top__xs">
+              <div class="is-col is-col__md-6 is-col__xs-12">
+                <div class="form__group">
+                  <label class="label">Ваше имя</label>
+                  <input class="control" type="text" placeholder="Иванов иван иванович" name="name">
+                </div>
+              </div>
+              <div class="is-col is-col__md-6 is-col__xs-12">
+                <div class="form__group">
+                  <label class="label">Телефон</label>
+                  <input class="control" type="text" placeholder="+7 (___) ___-__-__" name="phone">
+                </div>
+              </div>
+            </div>
+            <div class="form__group">
+              <div class="checkbox">
+                <input type="checkbox" name="useron" id="useron">
+                <label class="label" for="useron">Я согласен на обработку моих персональных данных. <a href="#">Политика обработки персональных данных</a></label>
+              </div>
+            </div>
+            <div class="text--center">
+              <button class="btn btn--primary btn__lg" type="submit">перезвоните мне</button>
+            </div>
+          </form>
+        </div>
+      </div>
+    </div>
+    <div class="mfp-hide zoom-anim-dialog" id="plan-id">
+      <div class="main-popup main-popup--md main-popup--bg main-popup--sd">
+        <div class="main-popup-header">
+          <div class="main-popup-title"> 
+            <h2>Отправить план помещения на E-mail</h2>
+          </div>
+          <form action="#" method="method">
+            <div class="is-row top__xs">
+              <div class="is-col is-col__md-6 is-col__xs-12">
+                <div class="form__group">
+                  <label class="label">Ваше имя</label>
+                  <input class="control" type="text" placeholder="Иванов иван иванович" name="name">
+                </div>
+              </div>
+              <div class="is-col is-col__md-6 is-col__xs-12">
+                <div class="form__group">
+                  <label class="label">Телефон</label>
+                  <input class="control" type="text" placeholder="+7 (___) ___-__-__" name="phone">
+                </div>
+              </div>
+              <div class="is-col is-col__md-6 is-col__xs-12">
+                <div class="form__group">
+                  <label class="label">Организация</label>
+                  <input class="control" type="text" placeholder="ооо интурист" name="firm">
+                </div>
+              </div>
+              <div class="is-col is-col__md-6 is-col__xs-12">
+                <div class="form__group">
+                  <label class="label">E-mail</label>
+                  <input class="control" type="email" placeholder="info@mail.ru" name="email">
+                </div>
+              </div>
+            </div>
+            <div class="form__group">
+              <div class="checkbox">
+                <input type="checkbox" name="useron1" id="useron1">
+                <label class="label" for="useron1">Я согласен на обработку моих персональных данных. <a href="#">Политика обработки персональных данных</a></label>
+              </div>
+            </div>
+            <div class="text--center">
+              <button class="btn btn--primary btn__lg" type="submit">отправьте мне план помещения</button>
+            </div>
+          </form>
+        </div>
+      </div>
+    </div>
+    <div class="mfp-hide zoom-anim-dialog" id="question-id">
+      <div class="main-popup main-popup--lg main-popup--bg main-popup--sd">
+        <div class="main-popup-header">
+          <div class="main-popup-title">
+            <h2>Задать вопрос</h2>
+          </div>
+          <form action="#" method="method">
+            <div class="is-row top__xs">
+              <div class="is-col is-col__md-4 is-col__xs-12">
+                <div class="form__group">
+                  <label class="label">Ваше имя</label>
+                  <input class="control" type="text" placeholder="Иванов иван иванович" name="name">
+                </div>
+              </div>
+              <div class="is-col is-col__md-4 is-col__xs-12">
+                <div class="form__group">
+                  <label class="label">Организация</label>
+                  <input class="control" type="text" placeholder="ооо интурист" name="firm">
+                </div>
+              </div>
+              <div class="is-col is-col__md-4 is-col__xs-12">
+                <div class="form__group">
+                  <label class="label">E-mail</label>
+                  <input class="control" type="email" placeholder="info@mail.ru" name="email">
+                </div>
+              </div>
+              <div class="is-col is-col__xs-12">
+                <div class="form__group">
+                  <label class="label">Ваше сообщение</label>
+                  <textarea class="control" placeholder="ваше сообщение или вопрос" name="mess" rows="8">     </textarea>
+                </div>
+              </div>
+            </div>
+            <div class="is-row middle__xs between__xs">
+              <div class="is-col is-col__md-4 is-col__xs-12">
+                <div class="form__group">
+                  <div class="radio">
+                    <input type="radio" name="useron2" id="useron2">
+                    <label class="label" for="useron2">Я согласен на обработку моих персональных данных. <br> <a href="#">Политика обработки персональных данных</a></label>
+                  </div>
+                </div>
+              </div>
+              <div class="is-col is-col__md-3 is-col__xs-12">
+                <div class="form__group">
+                  <div class="checkbox">
+                    <input type="checkbox" name="add" id="add">
+                    <label class="label" for="add">заказать типовой договор</label>
+                  </div>
+                </div>
+              </div>
+              <div class="is-col is-col__md-4 is-col__xs-12">
+                <div class="form__group">
+                  <div class="text--center text__md--right">
+                    <button class="btn btn--primary btn__lg" type="submit">отправить сообщение</button>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </form>
+        </div>
+      </div>
+    </div>
+    <div class="mfp-hide zoom-anim-dialog" id="search-id">
+      <div class="main-popup main-popup--md">
+        <div class="text--center search-bar">
+          <h2>Введите свой запрос</h2>
+          <form action="#" method="method"> 
+            <div class="relative">
+              <input class="control control-search" type="search" placeholder="например, торговое помещение..." name="search">
+              <button class="search-me--js" type="submit"><i class="is-icons is-icons--search-lg"></i></button>
+            </div>
+          </form>
+        </div>
+      </div>
+      <!--upload content - using ajax-->
+      <div class="main-popup--bg main-popup--bgab">
+        <div class="main-popup main-popup--md search-results">
+          <h2 class="search-results-title">По запросу «Торговое помещение» </h2>
+          <div class="search-results-subtitle text__md text--uppercase">найдено <b>68</b> результатов</div><a class="search-results__item is-row stretch__xs" href="#">
+            <div class="search-results__item-img is-col is-col__sm-3 is-col__xs-5">
+              <div class="helper">Объект</div><img src="images/search.jpg" alt="">
+            </div>
+            <div class="search-results__item-desc is-col is-col__xl-6 is-col__lg-5 is-col__sm-9 is-col__xs-7"><b class="flex-top text--uppercase">Корпус d 145 квадратных метров на втором этаже</b></div></a><a class="search-results__item is-row stretch__xs" href="#">
+            <div class="search-results__item-img is-col is-col__sm-3 is-col__xs-5">
+              <div class="helper">Новость</div><img src="images/search.jpg" alt="">
+            </div>
+            <div class="search-results__item-desc is-col is-col__xl-6 is-col__lg-5 is-col__sm-9 is-col__xs-7"><b class="flex-top text--uppercase">Бизнес Парк имеет превосходную  транспортную доступность</b>
+              <div class="flex-end text--grey"><i class="icon-clock"></i><span class="text__sm">23 февраля 2017, 07:49</span></div>
+            </div></a><a class="search-results__item is-row stretch__xs" href="#">
+            <div class="search-results__item-img is-col is-col__sm-3 is-col__xs-5">
+              <div class="helper">Объект</div><img src="images/search.jpg" alt="">
+            </div>
+            <div class="search-results__item-desc is-col is-col__xl-6 is-col__lg-5 is-col__sm-9 is-col__xs-7"><b class="flex-top text--uppercase">Корпус d 145 квадратных метров на втором этаже</b></div></a><a class="search-results__item is-row stretch__xs" href="#">
+            <div class="search-results__item-img is-col is-col__sm-3 is-col__xs-5">
+              <div class="helper">Новость</div><img src="images/search.jpg" alt="">
+            </div>
+            <div class="search-results__item-desc is-col is-col__xl-6 is-col__lg-5 is-col__sm-9 is-col__xs-7"><b class="flex-top text--uppercase">Бизнес Парк имеет превосходную  транспортную доступность</b>
+              <div class="flex-end text--grey"><i class="icon-clock"></i><span class="text__sm">23 февраля 2017, 07:49</span></div>
+            </div></a>
+        </div>
+      </div>
+    </div>
+    <div class="mfp-hide main-popup main-popup--md main-popup--bg main-popup--sd zoom-anim-dialog" id="prices-id">
+      <div class="main-popup-header">
+        <p class="mb50">Лайтбоксы расположены в холле главного здания Бизнес центра, а так же на лестничных пролётах с первого по третий этажи. Размер изображения 800х1200 мм.</p>
+        <h4 class="mb30">Расценки</h4>
+      </div>
+      <div class="main-popup-body">
+        <table class="table text--uppercase ffbold table--mobile">
+          <thead>
+            <tr> 
+              <th>Место расположения  в Бизнес центре</th>
+              <th>6 месяцев  руб / месяц</th>
+              <th>3-6 месяцев  руб / месяц</th>
+              <th>1-3 месяца руб / месяц</th>
+            </tr>
+          </thead>
+          <tbody>
+            <tr class="text--grey">
+              <td>1й этаж</td>
+              <td data-th="1-3 месяца, руб / месяц">4 000</td>
+              <td data-th="3-6 месяцев, руб / месяц">4 600</td>
+              <td data-th="6 месяцев, руб / месяц">5 000</td>
+            </tr>
+          </tbody>
+        </table>
+      </div>
+    </div>
+    <header class="page-header">
+      <div class="container">
+        <div class="is-row middle__xs">
+          <div class="is-col is-col__md-6 is-col__xs-12">
+            <div class="is-row middle__xs between__xs start__md fnowrap__md">
+              <div class="page-header__logo is-col"><a href="/"><img src="images/logo.png" alt="Company ltd."></a></div>
+              <nav class="nav is-col">
+                <button class="main-nav__toggle main-nav__toggle--closed main-nav__toggle--js"><i class="is-icons is-icons--menu"></i></button>
+                <div class="main-nav__collapse">
+                  <div class="main-nav__close main-nav__close--js"><i class="is-icons is-icons--close"></i></div>
+                    <ul class="main-nav">
+                      <li class="main-nav__item main-nav__item--parent"><a class="main-nav__link" href="/" title="О бизнес парке">О бизнес парке</a>
+                        <ul class="sub-nav">
+                          <li class="main-nav__item"><a class="main-nav__link" href="#" title="О Компании">О Компании</a></li>
+                          <li class="main-nav__item"><a class="main-nav__link" href="#" title="Арендаторы">Арендаторы</a></li>
+                          <li class="main-nav__item"><a class="main-nav__link" href="#" title="Новости">Новости</a></li>
+                          <li class="main-nav__item"><a class="main-nav__link" href="#" title="Услуги">Услуги</a></li>
+                          <li class="main-nav__item"><a class="main-nav__link" href="#" title="Инфраструктура">Инфраструктура</a></li>
+                          <li class="main-nav__item"><a class="main-nav__link" href="#" title="Размещение рекламы">Размещение рекламы</a></li>
+                          <li class="main-nav__item"><a class="main-nav__link" href="#" title="Медиатека">Медиатека</a></li>
+                        </ul>
+                      </li>
+                      <li class="main-nav__item"><a class="main-nav__link" href="#" title="офисы и склады">офисы и склады</a>
+                      </li>
+                      <li class="main-nav__item"><a class="main-nav__link" href="#" title="ДРУГИЕ ОБЪЕКТЫ">ДРУГИЕ ОБЪЕКТЫ</a>
+                      </li>
+                      <li class="main-nav__item"><a class="main-nav__link" href="contacts.html" title="КОНТАКТЫ">КОНТАКТЫ</a>
+                      </li>
+                    </ul>
+                  <div class="hidden__md hidden__lg hidden__xl">
+                    <div class="page-header__link is-col mt20"><i class="is-icons is-icons--PDF"></i><a href="#">Презентация комплекса</a></div>
+                    <div class="page-header__link is-col mt20"><i class="is-icons is-icons--Phone"></i><a class="popup" href="#form-id">обратный звонок</a></div>
+                  </div>
+                  <div class="main-nav__collapse-footer hidden__md hidden__lg hidden__xl">
+                    <div class="is-row between__xs middle__xs">
+                      <div class="is-col"> 
+                        <div class="socials">
+                          <div class="socials__item"><a href="#"><i class="icon-f"></i></a></div>
+                          <div class="socials__item"><a href="#"><i class="icon-insta"></i></a></div>
+                          <div class="socials__item"><a href="#"><i class="icon-vk"></i></a></div>
+                        </div>
+                      </div>
+                      <div class="is-col"><a class="text--uppercase text--grey" href="#">сделано в cloudmill</a></div>
+                    </div>
+                  </div>
+                </div>
+              </nav>
+              <div class="is-col hidden__md hidden__lg hidden__xl"> <a class="popup is-col" href="#form-id"><i class="is-icons is-icons--phone-blue"></i></a><a class="page-header__search popup" href="#search-id"><i class="is-icons is-icons--search-blue"></i></a></div>
+            </div>
+          </div>
+          <div class="is-col is-col__md-6 is-col__xs-12 hidden__sm hidden__xs">
+            <div class="is-row middle__xs between__xs fnowrap__md">
+              <div class="is-col visible__lg visible__xl"></div>
+              <div class="page-header__link is-col"><i class="is-icons is-icons--PDF"></i><a href="#">Презентация комплекса</a></div>
+              <div class="page-header__link is-col"><i class="is-icons is-icons--Phone"></i><a class="popup" href="#form-id">обратный звонок</a></div>
+              <div class="page-header__phone is-col"><a href="tel:+78122344566">(812) 234-45-66</a></div><a class="page-header__search popup is-col" href="#search-id"><i class="is-icons is-icons--Search"></i></a>
+            </div>
+          </div>
+        </div>
+      </div>
+    </header>
+    <main class="page-main">
+      <div class="shop-links text--uppercase"><a class="shop-links__item active" href="#"><i class="is-icons is-icons--genplan"></i><span>генплан</span></a><a class="shop-links__item" href="#"><i class="is-icons is-icons--choice"></i><span>Выбор по параметрам </span></a></div>
+      <div class="genplan genplan-scheme genplan-3d">
+        <div class="container">
+          <div class="is-col__xl-11 centered-block">
+            <div class="is-row between__lg center__xs start__xs">
+              <aside class="is-col is-col__xl-4 is-col__lg-5 is-col__md-8 is-col__xs-12">
+                <h1 class="text--grey">Литер «А»</h1>
+                <div class="card-info text--uppercase is-row">
+                  <div class="card-info__item is-col is-col__xs-6"><span>этаж</span>
+                    <div class="text--grey">1-й этаж</div>
+                  </div>
+                  <div class="card-info__item is-col is-col__xs-6"><span>общая площадь</span>
+                    <div class="text--grey">10 230 м<sup>2</sup></div>
+                  </div>
+                  <div class="card-info__item is-col is-col__xs-6"><span>всего офисов</span>
+                    <div class="text--grey">200 </div>
+                  </div>
+                  <div class="card-info__item is-col is-col__xs-6"><span>площади офисов</span>
+                    <div class="text--grey">от 10 м<sup>2</sup>  до 230 м<sup>2</sup></div>
+                  </div>
+                  <div class="card-info__item is-col is-col__xs-6"><span>свободно</span>
+                    <div class="text--success">200 </div>
+                  </div>
+                  <div class="card-info__item is-col is-col__xs-6"><span>занято</span>
+                    <div class="text--danger">150</div>
+                  </div>
+                </div>
+                <div class="relative popup-gallery">
+                  <div class="slider-arrow slider-arrow-plan"></div>
+                  <div class="slider-plan is-col__md-10"><a href="images/big.jpg" title="Организация бизнес-ланчей"><img src="images/card-main-1.jpg" alt="alt"></a><a href="images/big.jpg" title="Организация бизнес-ланчей"><img src="images/card-main-2.jpg" alt="alt"></a><a href="images/big.jpg" title="Организация бизнес-ланчей"><img src="images/card-main-3.jpg" alt="alt"></a></div>
+                </div>
+                <div class="genplan-txt">
+                  <p class="text--grey">В офисном здании расположены: «Кафе на Цветочной», минимаркет, магазин финских товаров, все это позволит решить проблемы с питанием ваших сотрудников. </p>
+                </div>
+                <div class="genplan-notice">Наведите курсор на фасад здания, чтобы узнать о свободных помещениях</div>
+              </aside>
+              <section class="is-col is-col__xl-7 is-col__lg-7 is-col__xs-12">
+                <div class="genplan-litera">А</div>
+                <div class="genplan-pop">
+                  <div class="genplan-pop__wrapper"></div>
+                </div>
+                <div class="genplan-code genplan-code--3d">
+                  <svg version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px" width="1173" height="734" viewBox="0 0 1173 734.1" xml:space="preserve">
+                    <image x="0" y="0" width="1173" height="734" preserveaspectratio="none" xlink:href="images/3D/korpA_4.png"></image>
+                    <polygon class="st0 error" data-num="200" data-link="/" data-avail="0" points="238.3,551.6 227.3,529.1 162.6,560.6 172.5,583.3 "></polygon>
+                    <polygon class="st0 error" data-num="200" data-link="/" data-avail="0" points="211.5,533.6 199.9,508.9 150.5,532.3 161.4,558 "></polygon>
+                    <polygon class="st0 error" data-num="200" data-link="/" data-avail="0" points="199,506.9 185.5,477.5 136.6,500.6 149.5,530.5 "></polygon>
+                    <polygon class="st0 error" data-num="200" data-link="/" data-avail="0" points="185,475.8 173,449.4 124.5,472.4 135.9,499.1 "></polygon>
+                    <polygon class="st0 error" data-num="200" data-link="/" data-avail="0" points="370,488.6 330.1,411.2 270.3,438.9 309.3,517.5 "></polygon>
+                    <polygon class="st0 error" data-num="200" data-link="/" data-avail="0" points="445.6,453.4 402.6,378 332.4,410.1 373.3,487.8 "></polygon>
+                    <polygon class="st0 error" data-num="200" data-link="/" data-avail="0" points="506.3,423.9 461.7,350.6 405,377.1 447.7,452 "></polygon>
+                    <polygon class="st0 error" data-num="200" data-link="/" data-avail="0" points="447.3,327.8 418.1,279.6 358.8,305.9 388.1,354.6 "></polygon>
+                    <polygon class="st0 error" data-num="200" data-link="/" data-avail="0" points="565,396.1 517.6,324.5 463.7,349.6 508.7,423.3 "></polygon>
+                    <polygon class="st0 error" data-num="200" data-link="/" data-avail="0" points="140.8,415.9 156.2,408.8 213.7,532.7 226,526.7 184.6,439.4 188.9,437.3 166.7,391 135.9,405 		"></polygon>
+                    <polygon class="st0 error" data-num="200" data-link="/" data-avail="0" points="226.9,433.8 200.4,445.8 194.9,434.9 192.1,436.2 169.9,389.4 199,376.2 "></polygon>
+                    <polygon class="st0 error" data-num="200" data-link="/" data-avail="0" points="241,550.7 306.5,519 268,440 210.7,466.2 224.5,494.5 215.9,498.9 "></polygon>
+                    <polygon class="st0 error" data-num="200" data-link="/" data-avail="0" points="311.1,373.2 269.4,391.3 280.5,411 192.5,451.5 200.4,467.4 333.8,406.6 323.4,387.7 320.1,389.1 "></polygon>
+                    <polygon class="st0 error" data-num="200" data-link="/" data-avail="0" points="228.9,432.5 255.4,420.3 249.9,409.1 253.9,407.4 230.4,362.8 201.7,375.1 "></polygon>
+                    <polygon class="st0 error" data-num="200" data-link="/" data-avail="0" points="266.1,415.4 276.3,410.6 265.2,390.5 309.5,371 290.1,336.3 233.9,361.5 257.5,405.9 260.7,404.6"></polygon>
+                    <polygon class="st0 error" data-num="200" data-link="/" data-avail="0" points="325.3,387 505.1,304.7 507,307.6 513.5,304.6 510,299.4 587.3,262.6 592.3,269.2 601.5,264.5 596.7,257.9 947.3,99.5 971.9,125.3 550.6,321.6 542.8,310.8 335.3,405.9 "></polygon>
+                    <polygon class="st0 error" data-num="200" data-link="/" data-avail="0" points="420.2,278.5 453.3,264.2 464.2,281.5 459.7,283.5 463.1,289 460.9,290.1 476.3,314.3 449.2,326.9"></polygon>
+                    <polygon class="st0 error" data-num="200" data-link="/" data-avail="0" points="478.8,312.7 504.2,301 474.4,255 455.7,263.3 466.5,280.1 469.5,278.7 475,286.9 465.2,291.7 "></polygon>
+                    <polygon class="st0 error" data-num="200" data-link="/" data-avail="0" points="523.7,267.8 495.4,281.1 477.6,253.7 505.8,240.9 "></polygon>
+                    <polygon class="st0 error" data-num="200" data-link="/" data-avail="0" points="534.6,284.4 507,297.4 497.2,283 524.6,269.9 "></polygon>
+                    <polygon class="st0 error" data-num="200" data-link="/" data-avail="0" points="559,272.9 537.5,283.2 527.2,268.8 548.9,258.6 "></polygon>
+                    <polygon class="st0 error" data-num="200" data-link="/" data-avail="0" points="508,240 526,266.7 547.7,256.4 530,230.1 "></polygon>
+                    <polygon class="st0 error" data-num="200" data-link="/" data-avail="0" points="532.4,229 583.2,206.4 613.2,247.8 593.6,256.5 598.8,263.7 592.9,266.7 587.3,259.3 561.2,271.7 "></polygon>
+                    <polygon class="st0 error" data-num="200" data-link="/" data-avail="0" points="586.2,205.8 637,183.1 667.1,223.4 615.6,246.5 "></polygon>
+                    <polygon class="st0 error" data-num="200" data-link="/" data-avail="0" points="639,182.3 688.1,160.7 718.5,200 669.4,222.4 "></polygon>
+                    <polygon class="st0 error" data-num="200" data-link="/" data-avail="0" points="690.3,159.6 738.1,138.4 769.4,176.9 720.8,198.7 "></polygon>
+                    <polygon class="st0 error" data-num="200" data-link="/" data-avail="0" points="741.7,137.2 788,116.8 820,154.1 772.4,175.7 "></polygon>
+                    <polygon class="st0 error" data-num="200" data-link="/" data-avail="0" points="527,334.7 583,308.6 623,367.5 566.6,395.2 "></polygon>
+                    <polygon class="st0 error" data-num="200" data-link="/" data-avail="0" points="585.1,307.8 637.5,283.3 678.4,341.2 625.5,366.5 "></polygon>
+                    <polygon class="st0 error" data-num="200" data-link="/" data-avail="0" points="639.3,282.4 679.9,340.4 734.4,314.4 691.1,258.1 "></polygon>
+                    <polygon class="st0 error" data-num="200" data-link="/" data-avail="0" points="693.5,257.4 736.3,313.5 787.9,289 744.1,233.6 "></polygon>
+                    <polygon class="st0 error" data-num="200" data-link="/" data-avail="0" points="746.6,232.8 789.8,288.2 840.4,263.6 796.5,210.1 "></polygon>
+                    <polygon class="st0 error" data-num="200" data-link="/" data-avail="0" points="798.6,208.9 842.6,262.4 891.2,239.3 847.1,186.9 "></polygon>
+                    <polygon class="st0 error" data-num="200" data-link="/" data-avail="0" points="849.4,185.9 892.8,238.7 940.7,215.6 897.3,163.3 "></polygon>
+                    <polygon class="st0 error" data-num="200" data-link="/" data-avail="0" points="899.3,162.1 943,215.2 989.9,192.3 944.3,141 "></polygon>
+                    <polygon class="st0 error" data-num="200" data-link="/" data-avail="0" points="947.6,140.1 992.8,190.9 1040,168.3 992.8,118.7 "></polygon>
+                    <polygon class="st0 error" data-num="200" data-link="/" data-avail="0" points="791.2,115.4 823,153 871.1,131.4 837.3,94.7 "></polygon>
+                    <polygon class="st0 error" data-num="200" data-link="/" data-avail="0" points="889.9,70.6 911.6,60.8 945.3,97.7 922.5,107.9 "></polygon>
+                    <polygon class="st0 error" data-num="200" data-link="/" data-avail="0" points="974.8,123.8 989.9,116.6 930,52.7 914.3,59.5 "></polygon>
+                  </svg>
+                </div>
+              </section>
+            </div>
+          </div>
+        </div>
+      </div>
+    </main>
+    <footer class="page-footer page-footer--fix">
+      <div class="container">
+        <div class="is-row between__xs middle__xs">
+          <div class="is-col"> 
+            <div class="socials">
+              <div class="socials__item"><a href="#"><i class="icon-f"></i></a></div>
+              <div class="socials__item"><a href="#"><i class="icon-insta"></i></a></div>
+              <div class="socials__item"><a href="#"><i class="icon-vk"></i></a></div>
+            </div>
+          </div>
+          <div class="is-col"><a class="text--uppercase text--grey" href="#">сделано в cloudmill</a></div>
+        </div>
+      </div>
+    </footer><!--[if lt IE 9]>
+    <script src="http://html5shiv.googlecode.com/svn/trunk/html5.js"></script><![endif]-->
+<script src="scripts/plugins.js"></script>
+<script src="scripts/main.js"></script>
+  </body>
+</html>

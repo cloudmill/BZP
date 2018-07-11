@@ -21,7 +21,7 @@ $(document).ready(function () {
     videoIn[0].play();
   }
 
-  function hoverPopup(elem, sub) {
+  function hoverPopup(elem, sub, unique) {
     $(elem).mouseover(function (event) {
       var mess = undefined;
       var dataA = $(this).data('avail');
@@ -66,13 +66,18 @@ $(document).ready(function () {
           }).find('.genplan-pop__wrapper').html(mess);
         } else {
           $('.genplan-pop').addClass('active').css({
-            'right': 'calc(' + rightPer + '% - 50px)', 'bottom': bottom + 10 + 'px'
+            'right': 'calc(' + rightPer + '% - 50px)', 'bottom': bottom + 20 + 'px'
           }).find('.genplan-pop__wrapper').html(mess);
         }
       }
-    }).mouseout(function () {});
+    }).mouseout(function () {
+      if (unique) {
+        $('.genplan-pop__wrapper').html('');
+      }
+    });
   }
-  hoverPopup('polygon', false);
+  hoverPopup('polygon', false, true);
+  hoverPopup('path', false, true);
 
   function dynamicPlanIn(classId, videoIdMIn, imgId, videoIdMOut, svgId) {
     $('.' + classId).click(function () {
