@@ -1193,8 +1193,8 @@ th {
     .table--hover > tbody > tr:hover {
       color: #fff;
       background-color: #00b9ff; }
-      .uikit table--hover > tbody > tr:hover a,
-      .table--hover > tbody > tr:hover a {
+      .uikit table--hover > tbody > tr:hover a:not(.btn),
+      .table--hover > tbody > tr:hover a:not(.btn) {
         color: #fff !important; }
       .uikit table--hover > tbody > tr:hover td,
       .table--hover > tbody > tr:hover td {
@@ -3019,7 +3019,7 @@ i + span {
     height: 35px; }
   @media screen and (min-width: 768px) {
     .page-header__logo {
-      width: 22%; }
+      width: 20%; }
       .page-header__logo img {
         height: auto; } }
   .page-header__logo a {
@@ -3200,6 +3200,12 @@ aside {
   .popover.active {
     opacity: 1;
     z-index: 999; }
+  .tooltip .btn,
+  .popover .btn {
+    color: #00b9ff !important; }
+    .tooltip .btn:hover,
+    .popover .btn:hover {
+      color: white !important; }
   .tooltip--js,
   .popover--js {
     position: relative; }
