@@ -335,9 +335,9 @@ $(document).ready(function () {
         var sidebartop = sidebar.offset().top;
         $(window).scroll(function () {
             if ($(window).scrollTop() > sidebartop) {
-                sidebar.css({ position: 'fixed', top: '10px' });
+                sidebar.css({ position: 'fixed', top: '10px', width: '31%' });
             } else {
-                sidebar.css({ position: 'static' });
+                sidebar.css({ position: 'static', width: '100%', top: 0 });
             }
         });
     }
