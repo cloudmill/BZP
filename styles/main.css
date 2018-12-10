@@ -3727,7 +3727,7 @@ aside {
       padding: 50px 25px; } }
 
 .card {
-  background: url("../images/card-back.png") no-repeat right top 60px; }
+  background: url("../images/shape.svg") no-repeat right -23% top 60px/auto 700px; }
   .card-info {
     margin-bottom: 20px; }
     .card-info__item {
