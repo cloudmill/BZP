@@ -2807,6 +2807,8 @@ polygon, path {
   @media screen and (min-width: 940px) and (min-width: 1300px) {
     .genplan-main__infowindow {
       max-width: 600px; } }
+  .genplan-main__infowindow .hidden-block {
+    display: none; }
   .genplan-main__infowindow-footer {
     position: absolute;
     bottom: 0;
@@ -2815,13 +2817,34 @@ polygon, path {
   .genplan-main__infowindow span {
     vertical-align: inherit; }
   .genplan-main__infowindow-in {
-    padding: 20px; }
+    padding: 20px;
+    -webkit-transition: width 0.5s;
+    -moz-transition: width 0.5s;
+    -o-transition: width 0.5s;
+    transition: width 0.5s; }
     @media screen and (min-width: 1300px) {
       .genplan-main__infowindow-in {
         padding: 50px 100px; } }
   @media screen and (min-width: 1300px) {
     .genplan-main__infowindow ul {
       margin: 30px 0 60px; } }
+  @media screen and (min-width: 768px) {
+    .genplan-main__infowindow.less .genplan-main__infowindow-in .card-info {
+      display: none; } }
+  @media screen and (min-width: 769px) {
+    .genplan-main__infowindow.less .genplan-main__infowindow-in {
+      width: 0;
+      padding: 0;
+      overflow: hidden; }
+    .genplan-main__infowindow.less .genplan-main__infowindow-footer .is-col__md-7 {
+      display: none; }
+    .genplan-main__infowindow.less .genplan-main__infowindow-footer .is-col__md-5 {
+      width: 100%; }
+    .genplan-main__infowindow.less .genplan-main__infowindow-footer .btn__lg {
+      padding: 23px 5px; }
+    .genplan-main__infowindow.less .hidden-block {
+      display: block;
+      padding: 50px; } }
 
 .genplan-main video {
   min-width: 100%;
@@ -3082,7 +3105,7 @@ i + span {
         width: 50px; } }
     @media screen and (min-width: 1400px) {
       .page-header__search::after {
-        width: 400px; } }
+        width: 200px; } }
 
 .page-main {
   min-height: -webkit-calc(100vh - 214px);

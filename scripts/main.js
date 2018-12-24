@@ -431,6 +431,15 @@ $(document).ready(function () {
         $(this).parent().toggleClass('opened').siblings().removeClass('opened');
     });
 
+    $('.genplan-less--js').click(function () {
+        $(this).closest('.genplan-main__infowindow').toggleClass('less');
+        if ($(this).closest('.genplan-main__infowindow').hasClass('less')) {
+            $(this).html('<span>развернуть</span><i class="is-icons is-icons--nextw-arr"></i>');
+        } else {
+            $(this).html('<i class="is-icons is-icons--prevw-arr"></i><span>свернуть</span>');
+        }
+    });
+
     // adaptive menu
     $('.main-nav__toggle--js').click(function () {
         $(this).next().toggleClass('collapse');
