@@ -3836,6 +3836,8 @@ aside {
     @media screen and (min-width: 1840px) {
       .card-serv {
         font-size: 16px; } }
+    .card-serv .is-icons--condicioner {
+      font-size: 10px; }
   .card-edge {
     margin-bottom: 60px; }
     @media screen and (min-width: 768px) {
@@ -3874,62 +3876,58 @@ aside {
         .card-edge__item:hover .card-edge__item-num {
           color: #fff; }
 
-.contacts-link {
-  position: absolute;
-  bottom: 0;
-  right: 0;
-  z-index: 11;
-  display: none; }
-  @media screen and (min-width: 768px) {
-    .contacts-link {
-      display: block; } }
-  .contacts-link .btn {
-    padding-right: 80px;
-    padding-left: 54px;
-    height: 80px; }
-    @media screen and (min-width: 1840px) {
-      .contacts-link .btn {
-        height: 95px; } }
-
-.contacts-inner {
+.contacts {
   position: relative; }
-
-.contacts-map {
-  opacity: 1;
-  -webkit-transition: all 0.3s ease;
-  -moz-transition: all 0.3s ease;
-  -o-transition: all 0.3s ease;
-  transition: all 0.3s ease; }
-  .contacts-map.active {
+  .contacts-link {
+    position: absolute;
+    bottom: 0;
+    right: 0;
+    z-index: 11;
+    display: none; }
+    @media screen and (min-width: 768px) {
+      .contacts-link {
+        display: block; } }
+    .contacts-link .btn {
+      padding-right: 80px;
+      padding-left: 54px;
+      height: 80px; }
+      @media screen and (min-width: 1840px) {
+        .contacts-link .btn {
+          height: 95px; } }
+  .contacts-inner {
+    position: relative; }
+  .contacts-map {
     opacity: 1;
-    z-index: 9; }
-  @media screen and (min-width: 768px) {
-    .contacts-map {
-      position: absolute;
-      top: 0;
-      left: 0;
-      right: 0;
-      margin: auto;
-      opacity: 0;
-      z-index: -9; } }
-
-.contacts__item {
-  margin-bottom: 10px; }
-  @media screen and (min-width: 1840px) {
-    .contacts__item {
-      margin-bottom: 30px; } }
-  .contacts__item:nth-last-child(2) {
-    margin-bottom: 40px; }
-
-.contacts p {
-  margin-bottom: 20px; }
-
-.contacts .list--inline li + li {
-  padding-left: 15px;
-  border-left: 1px solid #acb0bf; }
-
-.contacts .btn--unreal {
-  margin-top: 90px; }
+    -webkit-transition: all 0.3s ease;
+    -moz-transition: all 0.3s ease;
+    -o-transition: all 0.3s ease;
+    transition: all 0.3s ease; }
+    .contacts-map.active {
+      opacity: 1;
+      z-index: 9; }
+    @media screen and (min-width: 768px) {
+      .contacts-map {
+        position: absolute;
+        top: 0;
+        left: 0;
+        right: 0;
+        margin: auto;
+        opacity: 0;
+        z-index: -9; } }
+  .contacts__item {
+    margin-bottom: 10px; }
+    @media screen and (min-width: 1840px) {
+      .contacts__item {
+        margin-bottom: 30px; } }
+    .contacts__item:nth-last-child(2) {
+      margin-bottom: 40px; }
+  .contacts p {
+    margin-bottom: 20px; }
+  .contacts .list--inline li + li {
+    padding-left: 15px;
+    border-left: 1px solid #acb0bf; }
+  .contacts .btn--unreal {
+    margin-top: 90px; }
 
 #map {
   height: 475px; }
@@ -4208,21 +4206,19 @@ aside {
     @media screen and (min-width: 1300px) {
       .genplan-litera {
         font-size: 700px; } }
-  .genplan-code {
-    margin-top: 130px; }
-    @media screen and (min-width: 768px) {
-      .genplan-code {
-        margin-top: 0; } }
-    @media screen and (min-width: 1840px) {
-      .genplan-code {
-        margin-top: 50px; } }
-    @media screen and (max-width: 767px) {
-      .genplan-code--3d {
-        -webkit-transform: scale(2);
-           -moz-transform: scale(2);
-            -ms-transform: scale(2);
-             -o-transform: scale(2);
-                transform: scale(2); } }
+  @media screen and (min-width: 768px) {
+    .genplan-code {
+      margin-top: 0; } }
+  @media screen and (min-width: 1840px) {
+    .genplan-code {
+      margin-top: 50px; } }
+  @media screen and (max-width: 767px) {
+    .genplan-code--3d {
+      -webkit-transform: scale(2);
+         -moz-transform: scale(2);
+          -ms-transform: scale(2);
+           -o-transform: scale(2);
+              transform: scale(2); } }
 
 .slider-plan {
   margin-bottom: 30px; }
