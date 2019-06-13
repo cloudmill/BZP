@@ -97,7 +97,7 @@ $(document).ready(function () {
       genplanSub.show().addClass(classId);
       genplanV.addClass('animated fadeIn');
 
-      var svgImg = '<image x="0" y="0" width="1900" height="1080" preserveaspectratio="none" xlink:href="' + imgId + '"></image>' + svgId;
+      var svgImg = '<image x="0" y="0" width="100%" height="900px" preserveaspectratio="none" xlink:href="' + imgId + '"></image>' + svgId;
 
       dynamicVideo();
 
