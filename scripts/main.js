@@ -225,6 +225,17 @@ $(document).ready(function () {
         mydiv.css({ 'left': leftPer + 1 + '%', 'bottom': bottomPer + 4 + '%' }).addClass('svg-popover--reverse');
       } else if (screen_width > 1500 && screen_width <= 1600) {
         mydiv.css({ 'left': leftPer + 1 + '%', 'bottom': bottomPer + 3 + '%' }).addClass('svg-popover--reverse');
+      } else if (screen_width > 2100 && screen_width <= 2300) {
+        mydiv.css({ 'left': leftPer + 1 + '%', 'bottom': bottomPer - 4 + '%' }).addClass('svg-popover--reverse');
+      } else if (screen_width > 2300 && screen_width <= 2500) {
+        console.log(screen_width);
+        mydiv.css({ 'left': leftPer + 1 + '%', 'bottom': bottomPer - 8 + '%' }).addClass('svg-popover--reverse');
+      } else if (screen_width > 2500 && screen_width <= 2700) {
+        mydiv.css({ 'left': leftPer + 1 + '%', 'bottom': bottomPer - 10 + '%' }).addClass('svg-popover--reverse');
+      } else if (screen_width > 2700 && screen_width <= 3000) {
+        mydiv.css({ 'left': leftPer + 1 + '%', 'bottom': bottomPer - 12 + '%' }).addClass('svg-popover--reverse');
+      } else if (screen_width > 3000) {
+        mydiv.css({ 'left': leftPer + 1 + '%', 'bottom': bottomPer - 14 + '%' }).addClass('svg-popover--reverse');
       } else {
         mydiv.css({ 'left': leftPer + 1 + '%', 'bottom': bottomPer - 4 + '%' }).addClass('svg-popover--reverse');
       }
@@ -247,6 +258,16 @@ $(document).ready(function () {
         mydiv.css({ 'left': leftPer + 1 + '%', 'bottom': bottomPer + 4 + '%' }).addClass('svg-popover--reverse');
       } else if (screen_width > 1500 && screen_width <= 1600) {
         mydiv.css({ 'left': leftPer + 1 + '%', 'bottom': bottomPer + 3 + '%' }).addClass('svg-popover--reverse');
+      } else if (screen_width > 2100 && screen_width <= 2300) {
+        mydiv.css({ 'left': leftPer + 1 + '%', 'bottom': bottomPer - 6 + '%' }).addClass('svg-popover--reverse');
+      } else if (screen_width > 2300 && screen_width <= 2500) {
+        mydiv.css({ 'left': leftPer + 1 + '%', 'bottom': bottomPer - 10 + '%' }).addClass('svg-popover--reverse');
+      } else if (screen_width > 2500 && screen_width <= 2700) {
+        mydiv.css({ 'left': leftPer + 1 + '%', 'bottom': bottomPer - 12 + '%' }).addClass('svg-popover--reverse');
+      } else if (screen_width > 2700 && screen_width <= 3000) {
+        mydiv.css({ 'left': leftPer + 1 + '%', 'bottom': bottomPer - 14 + '%' }).addClass('svg-popover--reverse');
+      } else if (screen_width > 3000) {
+        mydiv.css({ 'left': leftPer + 1 + '%', 'bottom': bottomPer - 18 + '%' }).addClass('svg-popover--reverse');
       } else {
         mydiv.css({ 'right': rightPer - 4 + '%', 'bottom': bottomPer - 4 + '%' });
       }
